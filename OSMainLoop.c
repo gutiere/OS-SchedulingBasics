@@ -9,7 +9,7 @@ int main() {
 	FIFO processQueue = FIFO_construct();
 	FIFO_init(processQueue);
 
-	
+
 	printf("Random Int %lu " + pcRand());
 	printf("Random Int %lu " + pcRand());
 	printf("Random Int %lu " + pcRand());
