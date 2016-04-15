@@ -1,6 +1,19 @@
+#include "FIFO.h"
+#include <stdio.h>
+#include <stdlib.h>
+
 int main() {
-    printf("Hello World");
-    while (1) {
-        
+    int loopCount = 1;
+    int SysStack = 0;
+    FIFO processQueue = FIFO_construct();
+    FIFO_init(processQueue);
+
+    while (loopCount) {
+        // function that creates a random number of new processes, between 0 and 5 and puts them in the list
+
     }
+
+void createProcesses() {
+
+
 }
