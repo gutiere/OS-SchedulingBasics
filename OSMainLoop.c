@@ -3,8 +3,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
-int SysStack;
+unsigned long systemStack;
+unsigned int pcValue;
 
 enum Interrupts {
     TIMER
@@ -12,7 +12,7 @@ enum Interrupts {
 
 PCB_p dispatch(FIFO queue) {
     PCB_p pcb = dequeue(queue);
-    SysStack = pcb->pc;
+    systemStack = pcb->pc;
     return pcb;
 }
 
@@ -45,10 +45,8 @@ void createProcesses(FIFO theQ) {
 }
 
 int main() {
-	int loopCount = 1;
-	int SysStack = 0;
-	unsigned long systemStack;
-	int loopCount
+	pcValue = pcRand();
+	int loopCount;
 	int loopCount2;
 	char* testString = malloc(50);
 	char* testString2 = malloc(1000);
@@ -62,15 +60,16 @@ int main() {
 	FIFO createFIFO = FIFO_construct();
 	FIFO readyFIFO = FIFO_construct();
 	
-	for (loopCount = 0; i < 6; i++) {
+	for (loopCount = 0; loopCount < 6; loopCount++) {
 		int newProcess = rand() % 6;
 		for (loopCount2 = 0; loopCount2 < newProcess; loopCount2++) {
 			PCB_p p = PCB_construct();
 			PCB_init(p);
-			PCB_set_pid(p, (i << 4) + loopCount2);
+			PCB_set_pid(p, (loopCount << 4) + loopCount2);
 			enqueue(createFIFO, p);
-			//printf("Created:    ");
-			//printf(PCB_toString(p, testString);
+			printf("Created:    ");
+			PCB_toString(p, testString);
+			printf(testString);
 		}
 	}
 
@@ -78,31 +77,20 @@ int main() {
 		systemStack += pcRand();
 	}
 
-	//printf("Switching from PCB  ");
-	//printf(PCB_toString(currentPCB, testString);
+	printf("Switching from PCB  ");
+	PCB_toString(currentPCB, testString);
+	printf(testString);
 
-	timerInterupt();
-	//printf(FIFO_toString(readyQueue, testString2);
-
-
+	PCB_p timerPCB = timerInterrupt(readyFIFO, currentPCB, pcValue);
+	FIFO_toString(readyFIFO, testString2);
+	printf(testString2);
 
 	/*
-	loopCount = 1;
-	SysStack = 0;
-	unsigned int pcValue = pcRand();
-	FIFO processQueue = FIFO_construct();
-	FIFO_init(processQueue);
-
-
 	while (loopCount) {
-	// function that creates a random number of new processes, between 0 and 5 and puts them in the list
-	*/
-
-
-		printf("Random Int %lu " + pcRand());
-		printf("Random Int %lu " + pcRand());
-		printf("Random Int %lu " + pcRand());
-	} 
+		printf("Random Int %lu ", pcRand());
+		printf("Random Int %lu ", pcRand());
+		printf("Random Int %lu ", pcRand());
+	} */
 
 	return 0;
 
