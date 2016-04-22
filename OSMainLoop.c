@@ -3,11 +3,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int sysStack;
+int SysStack;
 
 int main() {
 	int loopCount = 1;
-	int sysStack = 0;
+	int SysStack = 0;
 	unsigned long systemStack;
 	int loopCount
 	int loopCount2;
@@ -58,10 +58,12 @@ int main() {
 	while (loopCount) {
 	// function that creates a random number of new processes, between 0 and 5 and puts them in the list
 	*/
+
+
 		printf("Random Int %lu " + pcRand());
 		printf("Random Int %lu " + pcRand());
 		printf("Random Int %lu " + pcRand());
-	//} 
+	} 
 
 	return 0;
 
