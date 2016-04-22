@@ -1,6 +1,9 @@
 #include "FIFO.h"
+#include "PCB.h"
 #include <stdio.h>
 #include <stdlib.h>
+
+int SysStack;
 
 int main() {
 	int loopCount = 1;
@@ -10,16 +13,17 @@ int main() {
 	FIFO_init(processQueue);
 
 
-	printf("Random Int %lu " + pcRand());
-	printf("Random Int %lu " + pcRand());
-	printf("Random Int %lu " + pcRand());
-
-}
-
-while (loopCount) {
+	while (loopCount) {
 	// function that creates a random number of new processes, between 0 and 5 and puts them in the list
 
+
+		printf("Random Int %lu " + pcRand());
+		printf("Random Int %lu " + pcRand());
+		printf("Random Int %lu " + pcRand());
+	}
+
 }
+
 
 void createProcesses() {
 

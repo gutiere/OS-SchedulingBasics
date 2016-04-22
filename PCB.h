@@ -10,7 +10,7 @@
 #include <string.h>
 #include <math.h>
 
-typedef enum state_type {new, ready, running, waiting, halted} state_type;
+typedef enum state_type {new, ready, running, interrupted, waiting, halted} state_type;
 
 typedef struct PCB {
   unsigned long pid;        // process ID #, a unique number
