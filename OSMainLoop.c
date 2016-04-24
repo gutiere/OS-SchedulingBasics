@@ -3,8 +3,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
-int SysStack;
+unsigned long systemStack;
+int loopCount;
+int loopCount2;
+unsigned int pc;
 
 enum Interrupts {
     TIMER
@@ -12,12 +14,12 @@ enum Interrupts {
 
 PCB_p dispatch(FIFO queue) {
     PCB_p pcb = dequeue(queue);
-    SysStack = pcb->pc;
+    systemStack = pcb->pc;
     return pcb;
 }
 
 PCB_p reschedule(FIFO queue, PCB_p pcb, enum Interrupts interrupt) {
-    if (interrupt == TIMER) {
+	if (interrupt == TIMER) {
         pcb->state = ready;
         enqueue(queue, pcb);
         return dispatch(queue);
@@ -25,7 +27,7 @@ PCB_p reschedule(FIFO queue, PCB_p pcb, enum Interrupts interrupt) {
 	return NULL;
 }
 
-PCB_p timerInterrupt(FIFO queue, PCB_p pcb, int pc) {
+PCB_p timerInterrupt(FIFO queue, PCB_p pcb, unsigned int pc) {
     pcb->state = interrupted;
     pcb->pc = pc;
     return reschedule(queue, pcb, TIMER);
@@ -45,20 +47,55 @@ void createProcesses(FIFO theQ) {
 }
 
 int main() {
-	int loopCount = 1;
-	int SysStack = 0;
-	unsigned int pcValue = pcRand();
-	FIFO processQueue = FIFO_construct();
-	FIFO_init(processQueue);
+	FILE *output = fopen("sceduleTrace.txt", "w");
+	fprintf(output, "Antonio V. Alvillar\n");
+	fprintf(output, "Elijah (didnt look up your name LOL)\n\n");
+	printf("\n");
+	pc = pcRand();
+	int loopCount;
+	int loopCount2;
+	char* testString = malloc(50);
+	char* testString2 = malloc(1000);
 
+	PCB_p idl = PCB_construct();
+	PCB_init(idl);
+	PCB_set_pid(idl, 0xFFFFFFFF);
+	PCB_set_state(idl, running);
 
-	while (loopCount) {
-	// function that creates a random number of new processes, between 0 and 5 and puts them in the list
+	PCB_p currentPCB = idl;
+	FIFO createFIFO = FIFO_construct();
+	FIFO readyFIFO = FIFO_construct();
 
+	for (loopCount = 0; loopCount < 6; loopCount++) {
+		int newProcess = rand() % 6;
+		for (loopCount2 = 0; loopCount2 < newProcess; loopCount2++) {
+			PCB_p p = PCB_construct();
+			PCB_init(p);
+			PCB_set_pid(p, (loopCount << 4) + loopCount2);
+			enqueue(createFIFO, p);
+			printf("Created:    ");
+			PCB_toString(p, testString);
+			printf(testString);
+			fprintf(output, "Created:  %s", testString);
+		}
 
-		printf("Random Int %lu " + pcRand());
-		printf("Random Int %lu " + pcRand());
-		printf("Random Int %lu " + pcRand());
+		if (PCB_get_pid(currentPCB) != 0xFFFFFFFF) {
+			systemStack += pcRand();
+		}
+		printf("Switching: ");
+		PCB_toString(currentPCB, testString);
+		printf(testString);
+		fprintf(output, "Switching:  %s", testString);
+		PCB_p timerPCB = timerInterrupt(readyFIFO, currentPCB, pc);
+		printf("\nQueue: ");
+		FIFO_toString(readyFIFO, testString2);
+		printf(testString2);
+		printf("\n");
+		fprintf(output, "\nQueue:  %s\n", testString2);
 	}
+
+	fclose(output);
+	printf("\n");
+	return 0;
 
 }

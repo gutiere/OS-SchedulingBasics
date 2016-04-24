@@ -30,7 +30,8 @@ void PCB_set_priority(PCB_p, unsigned short);
 void PCB_set_state(PCB_p, state_type);
 state_type PCB_get_state(PCB_p);
 unsigned long PCB_get_pid(PCB_p);  // returns pid of the process
-
+int PCB_set_pc(PCB_p pcb, unsigned long pc);
+unsigned long PCB_get_pc(PCB_p pcb);
 void PCB_toString(PCB_p, char *);  // returns a string representing the contents of the pcb
 
 #ifndef ADT
