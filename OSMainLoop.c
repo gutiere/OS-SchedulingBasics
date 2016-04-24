@@ -25,7 +25,7 @@ PCB_p reschedule(FIFO queue, PCB_p pcb, enum Interrupts interrupt) {
 	return NULL;
 }
 
-PCB_p timerInterrupt(FIFO queue, PCB_p pcb, unsigned int pc) {
+PCB_p timerInterrupt(FIFO queue, PCB_p pcb, int pc) {
     pcb->state = interrupted;
     pcb->pc = pc;
     return reschedule(queue, pcb, TIMER);
@@ -71,11 +71,32 @@ int main() {
 			PCB_init(p);
 			PCB_set_pid(p, (loopCount << 4) + loopCount2);
 			enqueue(createFIFO, p);
-			printf("Created:   ");
+			printf("Created:    ");
 			PCB_toString(p, testString);
 			printf(testString);
 			fprintf(output, "Created:  %s", testString);
 		}
+
+		-
+			-if (PCB_get_pid(currentPCB) != 0xFFFFFFFF) {
+			-systemStack += pcRand();
+			-
+		}
+		-
+			-printf("Switching from PCB  ");
+		-PCB_toString(currentPCB, testString);
+		-printf(testString);
+		-
+			-PCB_p timerPCB = timerInterrupt(readyFIFO, currentPCB, pcValue);
+		-FIFO_toString(readyFIFO, testString2);
+		-printf(testString2);
+		-
+			-	/*
+				-	while (loopCount) {
+				-		printf("Random Int %lu ", pcRand());
+				-		printf("Random Int %lu ", pcRand());
+				-		printf("Random Int %lu ", pcRand());
+				-	} */
 
 		if (PCB_get_pid(currentPCB) != 0xFFFFFFFF) {
 			systemStack += pcRand();
@@ -91,6 +112,7 @@ int main() {
 		printf("\n");
 		fprintf(output, "\nQueue:  %s\n", testString2);
 	}
+
 	fclose(output);
 	printf("\n");
 	return 0;
