@@ -1,0 +1,35 @@
+Antonio V. Alvillar
+Elijah (didnt look up your name LOL)
+
+Created:  PID: 0x0, State: new, Priority: 0xF, PC: 0x0
+Created:  PID: 0x1, State: new, Priority: 0xF, PC: 0x0
+Created:  PID: 0x2, State: new, Priority: 0xF, PC: 0x0
+Switching:  PID: 0x4294967295, State: running, Priority: 0xF, PC: 0x0
+
+Queue:  Count=0: 
+Created:  PID: 0x16, State: new, Priority: 0xF, PC: 0x0
+Created:  PID: 0x17, State: new, Priority: 0xF, PC: 0x0
+Switching:  PID: 0x4294967295, State: ready, Priority: 0xF, PC: 0x3933
+
+Queue:  Count=0: 
+Created:  PID: 0x32, State: new, Priority: 0xF, PC: 0x0
+Created:  PID: 0x33, State: new, Priority: 0xF, PC: 0x0
+Created:  PID: 0x34, State: new, Priority: 0xF, PC: 0x0
+Created:  PID: 0x35, State: new, Priority: 0xF, PC: 0x0
+Created:  PID: 0x36, State: new, Priority: 0xF, PC: 0x0
+Switching:  PID: 0x4294967295, State: ready, Priority: 0xF, PC: 0x3933
+
+Queue:  Count=0: 
+Switching:  PID: 0x4294967295, State: ready, Priority: 0xF, PC: 0x3933
+
+Queue:  Count=0: 
+Switching:  PID: 0x4294967295, State: ready, Priority: 0xF, PC: 0x3933
+
+Queue:  Count=0: 
+Created:  PID: 0x80, State: new, Priority: 0xF, PC: 0x0
+Created:  PID: 0x81, State: new, Priority: 0xF, PC: 0x0
+Created:  PID: 0x82, State: new, Priority: 0xF, PC: 0x0
+Created:  PID: 0x83, State: new, Priority: 0xF, PC: 0x0
+Switching:  PID: 0x4294967295, State: ready, Priority: 0xF, PC: 0x3933
+
+Queue:  Count=0: 

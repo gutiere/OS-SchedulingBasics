@@ -17,7 +17,7 @@ PCB_p dispatch(FIFO queue) {
 }
 
 PCB_p reschedule(FIFO queue, PCB_p pcb, enum Interrupts interrupt) {
-    if (interrupt == TIMER) {
+	if (interrupt == TIMER) {
         pcb->state = ready;
         enqueue(queue, pcb);
         return dispatch(queue);
@@ -25,7 +25,7 @@ PCB_p reschedule(FIFO queue, PCB_p pcb, enum Interrupts interrupt) {
 	return NULL;
 }
 
-PCB_p timerInterrupt(FIFO queue, PCB_p pcb, int pc) {
+PCB_p timerInterrupt(FIFO queue, PCB_p pcb, unsigned int pc) {
     pcb->state = interrupted;
     pcb->pc = pc;
     return reschedule(queue, pcb, TIMER);
@@ -45,6 +45,10 @@ void createProcesses(FIFO theQ) {
 }
 
 int main() {
+	FILE *output = fopen("sceduleTrace.txt", "w");
+	fprintf(output, "Antonio V. Alvillar\n");
+	fprintf(output, "Elijah (didnt look up your name LOL)\n\n");
+	printf("\n");
 	pcValue = pcRand();
 	int loopCount;
 	int loopCount2;
@@ -67,31 +71,28 @@ int main() {
 			PCB_init(p);
 			PCB_set_pid(p, (loopCount << 4) + loopCount2);
 			enqueue(createFIFO, p);
-			printf("Created:    ");
+			printf("Created:   ");
 			PCB_toString(p, testString);
 			printf(testString);
+			fprintf(output, "Created:  %s", testString);
 		}
+
+		if (PCB_get_pid(currentPCB) != 0xFFFFFFFF) {
+			systemStack += pcRand();
+		}
+		printf("Switching: ");
+		PCB_toString(currentPCB, testString);
+		printf(testString);
+		fprintf(output, "Switching:  %s", testString);
+		PCB_p timerPCB = timerInterrupt(readyFIFO, currentPCB, pcValue);
+		printf("\nQueue: ");
+		FIFO_toString(readyFIFO, testString2);
+		printf(testString2);
+		printf("\n");
+		fprintf(output, "\nQueue:  %s\n", testString2);
 	}
-
-	if (PCB_get_pid(currentPCB) != 0xFFFFFFFF) {
-		systemStack += pcRand();
-	}
-
-	printf("Switching from PCB  ");
-	PCB_toString(currentPCB, testString);
-	printf(testString);
-
-	PCB_p timerPCB = timerInterrupt(readyFIFO, currentPCB, pcValue);
-	FIFO_toString(readyFIFO, testString2);
-	printf(testString2);
-
-	/*
-	while (loopCount) {
-		printf("Random Int %lu ", pcRand());
-		printf("Random Int %lu ", pcRand());
-		printf("Random Int %lu ", pcRand());
-	} */
-
+	fclose(output);
+	printf("\n");
 	return 0;
 
 }
