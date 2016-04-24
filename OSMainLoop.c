@@ -3,8 +3,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+
 unsigned long systemStack;
-unsigned int pcValue;
+int loopCount;
+int loopCount2;
+unsigned int pc;
 
 enum Interrupts {
     TIMER
@@ -45,11 +49,13 @@ void createProcesses(FIFO theQ) {
 }
 
 int main() {
-	pcValue = pcRand();
+	pc = pcRand();
 	int loopCount;
 	int loopCount2;
+
 	char* testString = malloc(50);
 	char* testString2 = malloc(1000);
+	pc = pcRand();
 
 	PCB_p idl = PCB_construct();
 	PCB_init(idl);
@@ -59,7 +65,7 @@ int main() {
 	PCB_p currentPCB = idl;
 	FIFO createFIFO = FIFO_construct();
 	FIFO readyFIFO = FIFO_construct();
-	
+
 	for (loopCount = 0; loopCount < 6; loopCount++) {
 		int newProcess = rand() % 6;
 		for (loopCount2 = 0; loopCount2 < newProcess; loopCount2++) {
@@ -81,17 +87,22 @@ int main() {
 	PCB_toString(currentPCB, testString);
 	printf(testString);
 
-	PCB_p timerPCB = timerInterrupt(readyFIFO, currentPCB, pcValue);
+	PCB_p timerPCB = timerInterrupt(readyFIFO, currentPCB, pc);
 	FIFO_toString(readyFIFO, testString2);
 	printf(testString2);
 
-	/*
-	while (loopCount) {
-		printf("Random Int %lu ", pcRand());
-		printf("Random Int %lu ", pcRand());
-		printf("Random Int %lu ", pcRand());
-	} */
 
+
+
+	while (loopCount) {
+	// function that creates a random number of new processes, between 0 and 5 and puts them in the list
+
+
+
+		// printf("Random Int %lu " + pcRand());
+		// printf("Random Int %lu " + pcRand());
+		// printf("Random Int %lu " + pcRand());
+	}
 	return 0;
 
 }
