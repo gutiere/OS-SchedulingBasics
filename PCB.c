@@ -61,6 +61,18 @@ state_type PCB_get_state(PCB_p thePCB) {
   return thePCB->state;
 }
 
+int PCB_set_pc(PCB_p pcb, unsigned long pc) {
+    if(pcb == NULL) {
+        return -1;
+    }
+    pcb->pc = pc;
+    return 0;
+}
+
+unsigned long PCB_get_pc(PCB_p pcb) {
+    return pcb->pc;
+}
+
 void PCB_toString(PCB_p thePCB, char *theStr) {
   if (theStr) {
     char state[8];
