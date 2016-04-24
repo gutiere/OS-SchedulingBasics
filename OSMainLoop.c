@@ -51,7 +51,7 @@ int main() {
 	fprintf(output, "Antonio V. Alvillar\n");
 	fprintf(output, "Elijah (didnt look up your name LOL)\n\n");
 	printf("\n");
-	pcValue = pcRand();
+	pc = pcRand();
 	int loopCount;
 	int loopCount2;
 	char* testString = malloc(50);
@@ -65,7 +65,7 @@ int main() {
 	PCB_p currentPCB = idl;
 	FIFO createFIFO = FIFO_construct();
 	FIFO readyFIFO = FIFO_construct();
-	
+
 	for (loopCount = 0; loopCount < 6; loopCount++) {
 		int newProcess = rand() % 6;
 		for (loopCount2 = 0; loopCount2 < newProcess; loopCount2++) {
