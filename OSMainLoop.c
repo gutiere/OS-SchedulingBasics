@@ -29,6 +29,8 @@ void createProcesses();
 void runCurrentProcess();
 void pseudoISR();
 void scheduler();
+void dispatcher();
+void pseudoIRET();
 
 int main() {
 
