@@ -194,10 +194,9 @@ void pseudoIRET() {
     // "the PC value stored in the SysStack will be put into the PC"
     pc = systemStack;
 
-
     // "the next process will be running"
-
-
+    enqueue(readyQueue, current_process);
+    current_process = dequeue(readyQueue);
 }
 
 // "print a message to the screen that the process has been enqueued and print its PCB contents"
