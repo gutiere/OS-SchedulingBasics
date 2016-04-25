@@ -126,7 +126,7 @@ void scheduler(Interrupt interrupt_type) {
     switch(interrupt_type) {
         case TIMER:
             // "needs to put the process back into the ready queue"
-            FIFOq_enqueue(readyQueue, current_process);
+            enqueue(readyQueue, current_process);
 
             // "change its state from interrupted to ready"
             PCB_set_state(current_process, ready);
@@ -144,7 +144,7 @@ void dispatcher() {
     PCB_set_pc(current_process, pc); // "(here we mean the PC value)"
 
     // "dequeue the next waiting process (PCB)"
-    current_process = FIFO_dequeue(readyQueue);
+    current_process = dequeue(readyQueue);
 
     // The ready queue was empty
     if (current_process == NULL) {
