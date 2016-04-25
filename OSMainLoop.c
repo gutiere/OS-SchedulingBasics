@@ -31,6 +31,7 @@ void pseudoISR();
 void scheduler();
 void dispatcher();
 void pseudoIRET();
+void printProcessScheduling(PCB_p theProcess);
 
 int main() {
 
@@ -89,10 +90,8 @@ void createProcesses() {
         PCB_set_state(new_process, new);
         enqueue(readyQueue, new_process);
 
-        char* pcb_string = malloc(100);
-        PCB_toString(new_process, pcb_string);
-        fprintf(output, "Enqueued PCB: %s\n", pcb_string);
-        free(pcb_string);
+        // "print a message to the screen that the process has been enqueued and print its PCB contents"
+        printProcessScheduling(new_process);
 	}
 }
 
@@ -127,11 +126,37 @@ void scheduler(Interrupt interrupt_type) {
             // "needs to put the process back into the ready queue"
             enqueue(readyQueue, current_process);
 
+            // "print a message to the screen that the process has been enqueued and print its PCB contents"
+            printProcessScheduling(current_process);
+
             // "change its state from interrupted to ready"
             PCB_set_state(current_process, ready);
 
             // "It then calls the dispatcher"
             dispatcher();
+
+            /* " At every fourth context switch (call to the dispatcher) print
+            the contents of the running PCB followed by a message: "Switching to: "
+            and the contents of the ready queue head PCB." */
+
+            // if(cswitch_no == 0) {
+            //     char* pcb_string = malloc(100);
+            //     PCB_toString(current_pcb, pcb_string);
+            //     fprintf(output, "Returned to ready queue: %s\n", pcb_string);
+            //     free(pcb_string);
+            //
+            //     cswitch_no =  4;
+            //
+            //     int queue_string_size = FIFOq_toString_size(ready_PCBs);
+            //     char* queue_string = malloc(queue_string_size);
+            //     FIFOq_toString(ready_PCBs, queue_string, queue_string_size);
+            //     fprintf(output, "%s\n", queue_string);
+            //     free(queue_string);
+            // } else {
+            //     // If this call wasn't a print call, decrement the counter.
+            //     cswitch_no--;
+            // }
+
 
             break;
     }
@@ -173,5 +198,16 @@ void pseudoIRET() {
 
     // "the next process will be running"
 
+
+}
+
+// "print a message to the screen that the process has been enqueued and print its PCB contents"
+void printProcessScheduling(PCB_p theProcess) {
+    char *processContents = malloc(100);
+
+    printf("Process Enqueued: ");
+    PCB_toString(theProcess, processContents);
+    printf("Contents: %s\n",processContents);
+    free(processContents);
 
 }
