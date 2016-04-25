@@ -14,7 +14,7 @@ typedef enum interrupt_type {
     TIMER
 } Interrupt;
 
-int CYCLES = 100;           // Number of cycles to execute
+int CYCLES = 30;           // Number of cycles to execute
 unsigned long systemStack;  // "can just be a global integer as it will be accessed from multiple locations"
 unsigned int pc;            // "use an unsigned int in C for the PC"
 unsigned short contextSwitchNumber = 0;
