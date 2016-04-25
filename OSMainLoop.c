@@ -154,7 +154,6 @@ void scheduler(Interrupt interrupt_type) {
                 fprintf(output, "%s\n", string2);
                 free(string2);
             } else {
-                // If this call wasn't a print call, decrement the counter.
                 contextSwitchNumber--;
             }
 
