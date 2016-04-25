@@ -1,8 +1,8 @@
 /*
- * Group 3 OS ADTs
+ * Group 1
  * Spring 2016
- * Authors: Gabriel Houle & Edgardo Gutierrez Jr.
- * GitHub: https://github.com/ghoule636/OS-ADTs.git
+ * Authors: Edgardo Gutierrez Jr. & Antonio V. Alvillar
+ * GitHub: https://github.com/gutiere/OS-SchedulingBasics.git
  */
 
 #ifndef ADT
