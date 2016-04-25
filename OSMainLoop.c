@@ -135,6 +135,14 @@ void scheduler(Interrupt interrupt_type) {
             dispatcher();
 
             // "do any additional housekeeping at this time, but for now there is really nothing to do"
+            PCB_p terminated_process;
+            do {
+                terminated_process = dequeue(terminationQueue);
+                if (terminated_process != NULL) {
+                    PCB_destruct(terminated_process);
+                }
+            } while(terminated_process != NULL);
+
             break;
     }
 }
