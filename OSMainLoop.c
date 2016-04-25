@@ -148,6 +148,7 @@ void scheduler(Interrupt interrupt_type) {
 
                 contextSwitchNumber =  4;
 
+                // "print the ready queue"
                 int sizeOfFIFO = FIFO_toString_size(readyQueue);
                 char* string2 = malloc(sizeOfFIFO);
                 FIFO_toString(readyQueue, string2, sizeOfFIFO);
@@ -156,8 +157,6 @@ void scheduler(Interrupt interrupt_type) {
             } else {
                 contextSwitchNumber--;
             }
-
-
             break;
     }
     // "do any additional housekeeping at this time, but for now there is really nothing to do"
