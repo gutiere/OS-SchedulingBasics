@@ -143,7 +143,7 @@ void scheduler(Interrupt interrupt_type) {
             if(contextSwitchNumber == 0) {
                 char* string1 = malloc(100);
                 PCB_toString(current_process, string1);
-                fprintf(output, "Returned to ready queue: %s\n", string1);
+                fprintf(output, "\nReturned to ready queue: %s\n", string1);
                 free(string1);
 
                 contextSwitchNumber =  4;
@@ -206,9 +206,9 @@ void pseudoIRET() {
 void printProcessScheduling(PCB_p theProcess) {
     char *processContents = malloc(100);
 
-    printf("Process Enqueued: ");
+    fprintf(output, "Process Enqueued: ");
     PCB_toString(theProcess, processContents);
-    printf("Contents: %s\n",processContents);
+    fprintf(output, "Contents: %s",processContents);
     free(processContents);
 
 }
