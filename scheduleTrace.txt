@@ -1,0 +1,1724 @@
+Antonio V. Alvillar
+Edgardo C. Gutierrez
+
+Process Enqueued: Contents: PID: 0x282475249, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x984943658, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x4294967295, State: , Priority: 0xF, PC: 0x3272
+
+Returned to ready queue: PID: 0x282475249, State: running, Priority: 0xF, PC: 0x0
+
+Head: PID: 0x984943658, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x4294967295, State: ready, Priority: 0xF, PC: 0x3272
+
+Process Enqueued: Contents: PID: 0x1457850878, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x2007237709, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x282475249, State: , Priority: 0xF, PC: 0x3165
+Process Enqueued: Contents: PID: 0x74243042, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1137522503, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x984943658, State: , Priority: 0xF, PC: 0x3729
+Process Enqueued: Contents: PID: 0x4294967295, State: , Priority: 0xF, PC: 0x6884
+Process Enqueued: Contents: PID: 0x1474833169, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1998097157, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1457850878, State: , Priority: 0xF, PC: 0x3933
+Process Enqueued: Contents: PID: 0x1404280278, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x2007237709, State: , Priority: 0xF, PC: 0x3335
+
+Returned to ready queue: PID: 0x282475249, State: running, Priority: 0xF, PC: 0x3165
+
+Head: PID: 0x74243042, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1137522503, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x984943658, State: ready, Priority: 0xF, PC: 0x3729
+ -> PID: 0x4294967295, State: ready, Priority: 0xF, PC: 0x6884
+ -> PID: 0x1474833169, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1998097157, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1457850878, State: ready, Priority: 0xF, PC: 0x3933
+ -> PID: 0x1404280278, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2007237709, State: ready, Priority: 0xF, PC: 0x3335
+
+Process Enqueued: Contents: PID: 0x1636807826, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x101929267, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x282475249, State: , Priority: 0xF, PC: 0x6798
+Process Enqueued: Contents: PID: 0x1624379149, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x784558821, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x74243042, State: , Priority: 0xF, PC: 0x3672
+Process Enqueued: Contents: PID: 0x1617819336, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1137522503, State: , Priority: 0xF, PC: 0x3745
+Process Enqueued: Contents: PID: 0x1899894091, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x937186357, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x984943658, State: , Priority: 0xF, PC: 0x6882
+Process Enqueued: Contents: PID: 0x590357944, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x357571490, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1927702196, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x4294967295, State: , Priority: 0xF, PC: 0x10787
+
+Returned to ready queue: PID: 0x1474833169, State: running, Priority: 0xF, PC: 0x0
+
+Head: PID: 0x1998097157, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1457850878, State: ready, Priority: 0xF, PC: 0x3933
+ -> PID: 0x1404280278, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2007237709, State: ready, Priority: 0xF, PC: 0x3335
+ -> PID: 0x1636807826, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x101929267, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x282475249, State: ready, Priority: 0xF, PC: 0x6798
+ -> PID: 0x1624379149, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784558821, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x74243042, State: ready, Priority: 0xF, PC: 0x3672
+ -> PID: 0x1617819336, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1137522503, State: ready, Priority: 0xF, PC: 0x3745
+ -> PID: 0x1899894091, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x937186357, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x984943658, State: ready, Priority: 0xF, PC: 0x6882
+ -> PID: 0x590357944, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x357571490, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1927702196, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x4294967295, State: ready, Priority: 0xF, PC: 0x10787
+
+Process Enqueued: Contents: PID: 0x1083454666, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x685118024, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1474833169, State: , Priority: 0xF, PC: 0x3853
+Process Enqueued: Contents: PID: 0x194847408, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x158374933, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x824938981, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1998097157, State: , Priority: 0xF, PC: 0x3013
+Process Enqueued: Contents: PID: 0x1457850878, State: , Priority: 0xF, PC: 0x7747
+Process Enqueued: Contents: PID: 0x107554536, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1404280278, State: , Priority: 0xF, PC: 0x3669
+Process Enqueued: Contents: PID: 0x2007237709, State: , Priority: 0xF, PC: 0x6429
+
+Returned to ready queue: PID: 0x1636807826, State: running, Priority: 0xF, PC: 0x0
+
+Head: PID: 0x101929267, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x282475249, State: ready, Priority: 0xF, PC: 0x6798
+ -> PID: 0x1624379149, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784558821, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x74243042, State: ready, Priority: 0xF, PC: 0x3672
+ -> PID: 0x1617819336, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1137522503, State: ready, Priority: 0xF, PC: 0x3745
+ -> PID: 0x1899894091, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x937186357, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x984943658, State: ready, Priority: 0xF, PC: 0x6882
+ -> PID: 0x590357944, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x357571490, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1927702196, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x4294967295, State: ready, Priority: 0xF, PC: 0x10787
+ -> PID: 0x1083454666, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x685118024, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1474833169, State: ready, Priority: 0xF, PC: 0x3853
+ -> PID: 0x194847408, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x158374933, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x824938981, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1998097157, State: ready, Priority: 0xF, PC: 0x3013
+ -> PID: 0x1457850878, State: ready, Priority: 0xF, PC: 0x7747
+ -> PID: 0x107554536, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1404280278, State: ready, Priority: 0xF, PC: 0x3669
+ -> PID: 0x2007237709, State: ready, Priority: 0xF, PC: 0x6429
+
+Process Enqueued: Contents: PID: 0x1478446501, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1351934195, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1636807826, State: , Priority: 0xF, PC: 0x3404
+Process Enqueued: Contents: PID: 0x1908194298, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x657821123, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x101929267, State: , Priority: 0xF, PC: 0x3882
+Process Enqueued: Contents: PID: 0x1816731566, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x282475249, State: , Priority: 0xF, PC: 0x10135
+Process Enqueued: Contents: PID: 0x892053144, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1624379149, State: , Priority: 0xF, PC: 0x3897
+Process Enqueued: Contents: PID: 0x382955828, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1227619358, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x784558821, State: , Priority: 0xF, PC: 0x3397
+
+Returned to ready queue: PID: 0x74243042, State: running, Priority: 0xF, PC: 0x3672
+
+Head: PID: 0x1617819336, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1137522503, State: ready, Priority: 0xF, PC: 0x3745
+ -> PID: 0x1899894091, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x937186357, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x984943658, State: ready, Priority: 0xF, PC: 0x6882
+ -> PID: 0x590357944, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x357571490, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1927702196, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x4294967295, State: ready, Priority: 0xF, PC: 0x10787
+ -> PID: 0x1083454666, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x685118024, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1474833169, State: ready, Priority: 0xF, PC: 0x3853
+ -> PID: 0x194847408, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x158374933, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x824938981, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1998097157, State: ready, Priority: 0xF, PC: 0x3013
+ -> PID: 0x1457850878, State: ready, Priority: 0xF, PC: 0x7747
+ -> PID: 0x107554536, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1404280278, State: ready, Priority: 0xF, PC: 0x3669
+ -> PID: 0x2007237709, State: ready, Priority: 0xF, PC: 0x6429
+ -> PID: 0x1478446501, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1351934195, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1636807826, State: ready, Priority: 0xF, PC: 0x3404
+ -> PID: 0x1908194298, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x657821123, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x101929267, State: ready, Priority: 0xF, PC: 0x3882
+ -> PID: 0x1816731566, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x282475249, State: ready, Priority: 0xF, PC: 0x10135
+ -> PID: 0x892053144, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1624379149, State: ready, Priority: 0xF, PC: 0x3897
+ -> PID: 0x382955828, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1227619358, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784558821, State: ready, Priority: 0xF, PC: 0x3397
+
+Process Enqueued: Contents: PID: 0x1070477904, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1606946231, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x74243042, State: , Priority: 0xF, PC: 0x6847
+Process Enqueued: Contents: PID: 0x1617819336, State: , Priority: 0xF, PC: 0x3298
+Process Enqueued: Contents: PID: 0x456880399, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x280090412, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1137522503, State: , Priority: 0xF, PC: 0x7302
+Process Enqueued: Contents: PID: 0x889688008, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1899894091, State: , Priority: 0xF, PC: 0x3968
+Process Enqueued: Contents: PID: 0x515204530, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x937186357, State: , Priority: 0xF, PC: 0x3962
+
+Returned to ready queue: PID: 0x984943658, State: running, Priority: 0xF, PC: 0x6882
+
+Head: PID: 0x590357944, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x357571490, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1927702196, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x4294967295, State: ready, Priority: 0xF, PC: 0x10787
+ -> PID: 0x1083454666, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x685118024, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1474833169, State: ready, Priority: 0xF, PC: 0x3853
+ -> PID: 0x194847408, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x158374933, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x824938981, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1998097157, State: ready, Priority: 0xF, PC: 0x3013
+ -> PID: 0x1457850878, State: ready, Priority: 0xF, PC: 0x7747
+ -> PID: 0x107554536, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1404280278, State: ready, Priority: 0xF, PC: 0x3669
+ -> PID: 0x2007237709, State: ready, Priority: 0xF, PC: 0x6429
+ -> PID: 0x1478446501, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1351934195, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1636807826, State: ready, Priority: 0xF, PC: 0x3404
+ -> PID: 0x1908194298, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x657821123, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x101929267, State: ready, Priority: 0xF, PC: 0x3882
+ -> PID: 0x1816731566, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x282475249, State: ready, Priority: 0xF, PC: 0x10135
+ -> PID: 0x892053144, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1624379149, State: ready, Priority: 0xF, PC: 0x3897
+ -> PID: 0x382955828, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1227619358, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784558821, State: ready, Priority: 0xF, PC: 0x3397
+ -> PID: 0x1070477904, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1606946231, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x74243042, State: ready, Priority: 0xF, PC: 0x6847
+ -> PID: 0x1617819336, State: ready, Priority: 0xF, PC: 0x3298
+ -> PID: 0x456880399, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x280090412, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1137522503, State: ready, Priority: 0xF, PC: 0x7302
+ -> PID: 0x889688008, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1899894091, State: ready, Priority: 0xF, PC: 0x3968
+ -> PID: 0x515204530, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x937186357, State: ready, Priority: 0xF, PC: 0x3962
+
+Process Enqueued: Contents: PID: 0x1400285365, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1463179852, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x984943658, State: , Priority: 0xF, PC: 0x10703
+Process Enqueued: Contents: PID: 0x590357944, State: , Priority: 0xF, PC: 0x3712
+Process Enqueued: Contents: PID: 0x1815859901, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x357571490, State: , Priority: 0xF, PC: 0x3831
+Process Enqueued: Contents: PID: 0x318153057, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1927702196, State: , Priority: 0xF, PC: 0x3790
+Process Enqueued: Contents: PID: 0x4294967295, State: , Priority: 0xF, PC: 0x14466
+
+Returned to ready queue: PID: 0x1083454666, State: running, Priority: 0xF, PC: 0x0
+
+Head: PID: 0x685118024, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1474833169, State: ready, Priority: 0xF, PC: 0x3853
+ -> PID: 0x194847408, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x158374933, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x824938981, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1998097157, State: ready, Priority: 0xF, PC: 0x3013
+ -> PID: 0x1457850878, State: ready, Priority: 0xF, PC: 0x7747
+ -> PID: 0x107554536, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1404280278, State: ready, Priority: 0xF, PC: 0x3669
+ -> PID: 0x2007237709, State: ready, Priority: 0xF, PC: 0x6429
+ -> PID: 0x1478446501, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1351934195, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1636807826, State: ready, Priority: 0xF, PC: 0x3404
+ -> PID: 0x1908194298, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x657821123, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x101929267, State: ready, Priority: 0xF, PC: 0x3882
+ -> PID: 0x1816731566, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x282475249, State: ready, Priority: 0xF, PC: 0x10135
+ -> PID: 0x892053144, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1624379149, State: ready, Priority: 0xF, PC: 0x3897
+ -> PID: 0x382955828, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1227619358, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784558821, State: ready, Priority: 0xF, PC: 0x3397
+ -> PID: 0x1070477904, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1606946231, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x74243042, State: ready, Priority: 0xF, PC: 0x6847
+ -> PID: 0x1617819336, State: ready, Priority: 0xF, PC: 0x3298
+ -> PID: 0x456880399, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x280090412, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1137522503, State: ready, Priority: 0xF, PC: 0x7302
+ -> PID: 0x889688008, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1899894091, State: ready, Priority: 0xF, PC: 0x3968
+ -> PID: 0x515204530, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x937186357, State: ready, Priority: 0xF, PC: 0x3962
+ -> PID: 0x1400285365, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1463179852, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x984943658, State: ready, Priority: 0xF, PC: 0x10703
+ -> PID: 0x590357944, State: ready, Priority: 0xF, PC: 0x3712
+ -> PID: 0x1815859901, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x357571490, State: ready, Priority: 0xF, PC: 0x3831
+ -> PID: 0x318153057, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1927702196, State: ready, Priority: 0xF, PC: 0x3790
+ -> PID: 0x4294967295, State: ready, Priority: 0xF, PC: 0x14466
+
+Process Enqueued: Contents: PID: 0x1083454666, State: , Priority: 0xF, PC: 0x3006
+Process Enqueued: Contents: PID: 0x2063936098, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x685118024, State: , Priority: 0xF, PC: 0x3319
+Process Enqueued: Contents: PID: 0x1351345223, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1398556760, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1474833169, State: , Priority: 0xF, PC: 0x6979
+Process Enqueued: Contents: PID: 0x1023129506, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x436476770, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1936329094, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x194847408, State: , Priority: 0xF, PC: 0x3844
+Process Enqueued: Contents: PID: 0x881140534, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x158374933, State: , Priority: 0xF, PC: 0x3394
+
+Returned to ready queue: PID: 0x824938981, State: running, Priority: 0xF, PC: 0x0
+
+Head: PID: 0x1998097157, State: ready, Priority: 0xF, PC: 0x3013
+ -> PID: 0x1457850878, State: ready, Priority: 0xF, PC: 0x7747
+ -> PID: 0x107554536, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1404280278, State: ready, Priority: 0xF, PC: 0x3669
+ -> PID: 0x2007237709, State: ready, Priority: 0xF, PC: 0x6429
+ -> PID: 0x1478446501, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1351934195, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1636807826, State: ready, Priority: 0xF, PC: 0x3404
+ -> PID: 0x1908194298, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x657821123, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x101929267, State: ready, Priority: 0xF, PC: 0x3882
+ -> PID: 0x1816731566, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x282475249, State: ready, Priority: 0xF, PC: 0x10135
+ -> PID: 0x892053144, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1624379149, State: ready, Priority: 0xF, PC: 0x3897
+ -> PID: 0x382955828, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1227619358, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784558821, State: ready, Priority: 0xF, PC: 0x3397
+ -> PID: 0x1070477904, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1606946231, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x74243042, State: ready, Priority: 0xF, PC: 0x6847
+ -> PID: 0x1617819336, State: ready, Priority: 0xF, PC: 0x3298
+ -> PID: 0x456880399, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x280090412, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1137522503, State: ready, Priority: 0xF, PC: 0x7302
+ -> PID: 0x889688008, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1899894091, State: ready, Priority: 0xF, PC: 0x3968
+ -> PID: 0x515204530, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x937186357, State: ready, Priority: 0xF, PC: 0x3962
+ -> PID: 0x1400285365, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1463179852, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x984943658, State: ready, Priority: 0xF, PC: 0x10703
+ -> PID: 0x590357944, State: ready, Priority: 0xF, PC: 0x3712
+ -> PID: 0x1815859901, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x357571490, State: ready, Priority: 0xF, PC: 0x3831
+ -> PID: 0x318153057, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1927702196, State: ready, Priority: 0xF, PC: 0x3790
+ -> PID: 0x4294967295, State: ready, Priority: 0xF, PC: 0x14466
+ -> PID: 0x1083454666, State: ready, Priority: 0xF, PC: 0x3006
+ -> PID: 0x2063936098, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x685118024, State: ready, Priority: 0xF, PC: 0x3319
+ -> PID: 0x1351345223, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1398556760, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1474833169, State: ready, Priority: 0xF, PC: 0x6979
+ -> PID: 0x1023129506, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x436476770, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1936329094, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x194847408, State: ready, Priority: 0xF, PC: 0x3844
+ -> PID: 0x881140534, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x158374933, State: ready, Priority: 0xF, PC: 0x3394
+
+Process Enqueued: Contents: PID: 0x348318738, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x784559590, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x824938981, State: , Priority: 0xF, PC: 0x3159
+Process Enqueued: Contents: PID: 0x977764947, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1998097157, State: , Priority: 0xF, PC: 0x6230
+Process Enqueued: Contents: PID: 0x2000755539, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x462242385, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1457850878, State: , Priority: 0xF, PC: 0x11632
+Process Enqueued: Contents: PID: 0x1848682420, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1086531968, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x107554536, State: , Priority: 0xF, PC: 0x3915
+Process Enqueued: Contents: PID: 0x1404280278, State: , Priority: 0xF, PC: 0x7203
+
+Returned to ready queue: PID: 0x2007237709, State: running, Priority: 0xF, PC: 0x6429
+
+Head: PID: 0x1478446501, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1351934195, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1636807826, State: ready, Priority: 0xF, PC: 0x3404
+ -> PID: 0x1908194298, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x657821123, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x101929267, State: ready, Priority: 0xF, PC: 0x3882
+ -> PID: 0x1816731566, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x282475249, State: ready, Priority: 0xF, PC: 0x10135
+ -> PID: 0x892053144, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1624379149, State: ready, Priority: 0xF, PC: 0x3897
+ -> PID: 0x382955828, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1227619358, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784558821, State: ready, Priority: 0xF, PC: 0x3397
+ -> PID: 0x1070477904, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1606946231, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x74243042, State: ready, Priority: 0xF, PC: 0x6847
+ -> PID: 0x1617819336, State: ready, Priority: 0xF, PC: 0x3298
+ -> PID: 0x456880399, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x280090412, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1137522503, State: ready, Priority: 0xF, PC: 0x7302
+ -> PID: 0x889688008, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1899894091, State: ready, Priority: 0xF, PC: 0x3968
+ -> PID: 0x515204530, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x937186357, State: ready, Priority: 0xF, PC: 0x3962
+ -> PID: 0x1400285365, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1463179852, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x984943658, State: ready, Priority: 0xF, PC: 0x10703
+ -> PID: 0x590357944, State: ready, Priority: 0xF, PC: 0x3712
+ -> PID: 0x1815859901, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x357571490, State: ready, Priority: 0xF, PC: 0x3831
+ -> PID: 0x318153057, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1927702196, State: ready, Priority: 0xF, PC: 0x3790
+ -> PID: 0x4294967295, State: ready, Priority: 0xF, PC: 0x14466
+ -> PID: 0x1083454666, State: ready, Priority: 0xF, PC: 0x3006
+ -> PID: 0x2063936098, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x685118024, State: ready, Priority: 0xF, PC: 0x3319
+ -> PID: 0x1351345223, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1398556760, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1474833169, State: ready, Priority: 0xF, PC: 0x6979
+ -> PID: 0x1023129506, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x436476770, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1936329094, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x194847408, State: ready, Priority: 0xF, PC: 0x3844
+ -> PID: 0x881140534, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x158374933, State: ready, Priority: 0xF, PC: 0x3394
+ -> PID: 0x348318738, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784559590, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x824938981, State: ready, Priority: 0xF, PC: 0x3159
+ -> PID: 0x977764947, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1998097157, State: ready, Priority: 0xF, PC: 0x6230
+ -> PID: 0x2000755539, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x462242385, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1457850878, State: ready, Priority: 0xF, PC: 0x11632
+ -> PID: 0x1848682420, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1086531968, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x107554536, State: ready, Priority: 0xF, PC: 0x3915
+ -> PID: 0x1404280278, State: ready, Priority: 0xF, PC: 0x7203
+
+Process Enqueued: Contents: PID: 0x1358796011, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1771024152, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1507977295, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x2007237709, State: , Priority: 0xF, PC: 0x9825
+Process Enqueued: Contents: PID: 0x621301815, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1478446501, State: , Priority: 0xF, PC: 0x3033
+Process Enqueued: Contents: PID: 0x889119397, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1882410547, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1351934195, State: , Priority: 0xF, PC: 0x3210
+Process Enqueued: Contents: PID: 0x1536830211, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1517273377, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1636807826, State: , Priority: 0xF, PC: 0x7029
+Process Enqueued: Contents: PID: 0x1908194298, State: , Priority: 0xF, PC: 0x3868
+
+Returned to ready queue: PID: 0x657821123, State: running, Priority: 0xF, PC: 0x0
+
+Head: PID: 0x101929267, State: ready, Priority: 0xF, PC: 0x3882
+ -> PID: 0x1816731566, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x282475249, State: ready, Priority: 0xF, PC: 0x10135
+ -> PID: 0x892053144, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1624379149, State: ready, Priority: 0xF, PC: 0x3897
+ -> PID: 0x382955828, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1227619358, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784558821, State: ready, Priority: 0xF, PC: 0x3397
+ -> PID: 0x1070477904, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1606946231, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x74243042, State: ready, Priority: 0xF, PC: 0x6847
+ -> PID: 0x1617819336, State: ready, Priority: 0xF, PC: 0x3298
+ -> PID: 0x456880399, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x280090412, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1137522503, State: ready, Priority: 0xF, PC: 0x7302
+ -> PID: 0x889688008, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1899894091, State: ready, Priority: 0xF, PC: 0x3968
+ -> PID: 0x515204530, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x937186357, State: ready, Priority: 0xF, PC: 0x3962
+ -> PID: 0x1400285365, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1463179852, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x984943658, State: ready, Priority: 0xF, PC: 0x10703
+ -> PID: 0x590357944, State: ready, Priority: 0xF, PC: 0x3712
+ -> PID: 0x1815859901, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x357571490, State: ready, Priority: 0xF, PC: 0x3831
+ -> PID: 0x318153057, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1927702196, State: ready, Priority: 0xF, PC: 0x3790
+ -> PID: 0x4294967295, State: ready, Priority: 0xF, PC: 0x14466
+ -> PID: 0x1083454666, State: ready, Priority: 0xF, PC: 0x3006
+ -> PID: 0x2063936098, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x685118024, State: ready, Priority: 0xF, PC: 0x3319
+ -> PID: 0x1351345223, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1398556760, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1474833169, State: ready, Priority: 0xF, PC: 0x6979
+ -> PID: 0x1023129506, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x436476770, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1936329094, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x194847408, State: ready, Priority: 0xF, PC: 0x3844
+ -> PID: 0x881140534, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x158374933, State: ready, Priority: 0xF, PC: 0x3394
+ -> PID: 0x348318738, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784559590, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x824938981, State: ready, Priority: 0xF, PC: 0x3159
+ -> PID: 0x977764947, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1998097157, State: ready, Priority: 0xF, PC: 0x6230
+ -> PID: 0x2000755539, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x462242385, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1457850878, State: ready, Priority: 0xF, PC: 0x11632
+ -> PID: 0x1848682420, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1086531968, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x107554536, State: ready, Priority: 0xF, PC: 0x3915
+ -> PID: 0x1404280278, State: ready, Priority: 0xF, PC: 0x7203
+ -> PID: 0x1358796011, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1771024152, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1507977295, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2007237709, State: ready, Priority: 0xF, PC: 0x9825
+ -> PID: 0x621301815, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1478446501, State: ready, Priority: 0xF, PC: 0x3033
+ -> PID: 0x889119397, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1882410547, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1351934195, State: ready, Priority: 0xF, PC: 0x3210
+ -> PID: 0x1536830211, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1517273377, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1636807826, State: ready, Priority: 0xF, PC: 0x7029
+ -> PID: 0x1908194298, State: ready, Priority: 0xF, PC: 0x3868
+
+Process Enqueued: Contents: PID: 0x657821123, State: , Priority: 0xF, PC: 0x3776
+Process Enqueued: Contents: PID: 0x1049997439, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1464689331, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x101929267, State: , Priority: 0xF, PC: 0x7183
+Process Enqueued: Contents: PID: 0x1911300560, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x298918984, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1816731566, State: , Priority: 0xF, PC: 0x3789
+Process Enqueued: Contents: PID: 0x957828015, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1105222769, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x282475249, State: , Priority: 0xF, PC: 0x13590
+Process Enqueued: Contents: PID: 0x892053144, State: , Priority: 0xF, PC: 0x3506
+
+Returned to ready queue: PID: 0x1624379149, State: running, Priority: 0xF, PC: 0x3897
+
+Head: PID: 0x382955828, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1227619358, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784558821, State: ready, Priority: 0xF, PC: 0x3397
+ -> PID: 0x1070477904, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1606946231, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x74243042, State: ready, Priority: 0xF, PC: 0x6847
+ -> PID: 0x1617819336, State: ready, Priority: 0xF, PC: 0x3298
+ -> PID: 0x456880399, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x280090412, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1137522503, State: ready, Priority: 0xF, PC: 0x7302
+ -> PID: 0x889688008, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1899894091, State: ready, Priority: 0xF, PC: 0x3968
+ -> PID: 0x515204530, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x937186357, State: ready, Priority: 0xF, PC: 0x3962
+ -> PID: 0x1400285365, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1463179852, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x984943658, State: ready, Priority: 0xF, PC: 0x10703
+ -> PID: 0x590357944, State: ready, Priority: 0xF, PC: 0x3712
+ -> PID: 0x1815859901, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x357571490, State: ready, Priority: 0xF, PC: 0x3831
+ -> PID: 0x318153057, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1927702196, State: ready, Priority: 0xF, PC: 0x3790
+ -> PID: 0x4294967295, State: ready, Priority: 0xF, PC: 0x14466
+ -> PID: 0x1083454666, State: ready, Priority: 0xF, PC: 0x3006
+ -> PID: 0x2063936098, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x685118024, State: ready, Priority: 0xF, PC: 0x3319
+ -> PID: 0x1351345223, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1398556760, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1474833169, State: ready, Priority: 0xF, PC: 0x6979
+ -> PID: 0x1023129506, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x436476770, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1936329094, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x194847408, State: ready, Priority: 0xF, PC: 0x3844
+ -> PID: 0x881140534, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x158374933, State: ready, Priority: 0xF, PC: 0x3394
+ -> PID: 0x348318738, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784559590, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x824938981, State: ready, Priority: 0xF, PC: 0x3159
+ -> PID: 0x977764947, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1998097157, State: ready, Priority: 0xF, PC: 0x6230
+ -> PID: 0x2000755539, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x462242385, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1457850878, State: ready, Priority: 0xF, PC: 0x11632
+ -> PID: 0x1848682420, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1086531968, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x107554536, State: ready, Priority: 0xF, PC: 0x3915
+ -> PID: 0x1404280278, State: ready, Priority: 0xF, PC: 0x7203
+ -> PID: 0x1358796011, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1771024152, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1507977295, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2007237709, State: ready, Priority: 0xF, PC: 0x9825
+ -> PID: 0x621301815, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1478446501, State: ready, Priority: 0xF, PC: 0x3033
+ -> PID: 0x889119397, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1882410547, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1351934195, State: ready, Priority: 0xF, PC: 0x3210
+ -> PID: 0x1536830211, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1517273377, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1636807826, State: ready, Priority: 0xF, PC: 0x7029
+ -> PID: 0x1908194298, State: ready, Priority: 0xF, PC: 0x3868
+ -> PID: 0x657821123, State: ready, Priority: 0xF, PC: 0x3776
+ -> PID: 0x1049997439, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1464689331, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x101929267, State: ready, Priority: 0xF, PC: 0x7183
+ -> PID: 0x1911300560, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x298918984, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1816731566, State: ready, Priority: 0xF, PC: 0x3789
+ -> PID: 0x957828015, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1105222769, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x282475249, State: ready, Priority: 0xF, PC: 0x13590
+ -> PID: 0x892053144, State: ready, Priority: 0xF, PC: 0x3506
+
+Process Enqueued: Contents: PID: 0x454233502, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1624379149, State: , Priority: 0xF, PC: 0x7005
+Process Enqueued: Contents: PID: 0x1323602331, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1887638, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1561939997, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x382955828, State: , Priority: 0xF, PC: 0x3849
+Process Enqueued: Contents: PID: 0x1461495731, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1227619358, State: , Priority: 0xF, PC: 0x3014
+Process Enqueued: Contents: PID: 0x1779636775, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x175530180, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1351995223, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x458588260, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x784558821, State: , Priority: 0xF, PC: 0x6942
+Process Enqueued: Contents: PID: 0x2034837525, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1070477904, State: , Priority: 0xF, PC: 0x3256
+
+Returned to ready queue: PID: 0x1606946231, State: running, Priority: 0xF, PC: 0x0
+
+Head: PID: 0x74243042, State: ready, Priority: 0xF, PC: 0x6847
+ -> PID: 0x1617819336, State: ready, Priority: 0xF, PC: 0x3298
+ -> PID: 0x456880399, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x280090412, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1137522503, State: ready, Priority: 0xF, PC: 0x7302
+ -> PID: 0x889688008, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1899894091, State: ready, Priority: 0xF, PC: 0x3968
+ -> PID: 0x515204530, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x937186357, State: ready, Priority: 0xF, PC: 0x3962
+ -> PID: 0x1400285365, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1463179852, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x984943658, State: ready, Priority: 0xF, PC: 0x10703
+ -> PID: 0x590357944, State: ready, Priority: 0xF, PC: 0x3712
+ -> PID: 0x1815859901, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x357571490, State: ready, Priority: 0xF, PC: 0x3831
+ -> PID: 0x318153057, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1927702196, State: ready, Priority: 0xF, PC: 0x3790
+ -> PID: 0x4294967295, State: ready, Priority: 0xF, PC: 0x14466
+ -> PID: 0x1083454666, State: ready, Priority: 0xF, PC: 0x3006
+ -> PID: 0x2063936098, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x685118024, State: ready, Priority: 0xF, PC: 0x3319
+ -> PID: 0x1351345223, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1398556760, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1474833169, State: ready, Priority: 0xF, PC: 0x6979
+ -> PID: 0x1023129506, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x436476770, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1936329094, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x194847408, State: ready, Priority: 0xF, PC: 0x3844
+ -> PID: 0x881140534, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x158374933, State: ready, Priority: 0xF, PC: 0x3394
+ -> PID: 0x348318738, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784559590, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x824938981, State: ready, Priority: 0xF, PC: 0x3159
+ -> PID: 0x977764947, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1998097157, State: ready, Priority: 0xF, PC: 0x6230
+ -> PID: 0x2000755539, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x462242385, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1457850878, State: ready, Priority: 0xF, PC: 0x11632
+ -> PID: 0x1848682420, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1086531968, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x107554536, State: ready, Priority: 0xF, PC: 0x3915
+ -> PID: 0x1404280278, State: ready, Priority: 0xF, PC: 0x7203
+ -> PID: 0x1358796011, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1771024152, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1507977295, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2007237709, State: ready, Priority: 0xF, PC: 0x9825
+ -> PID: 0x621301815, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1478446501, State: ready, Priority: 0xF, PC: 0x3033
+ -> PID: 0x889119397, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1882410547, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1351934195, State: ready, Priority: 0xF, PC: 0x3210
+ -> PID: 0x1536830211, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1517273377, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1636807826, State: ready, Priority: 0xF, PC: 0x7029
+ -> PID: 0x1908194298, State: ready, Priority: 0xF, PC: 0x3868
+ -> PID: 0x657821123, State: ready, Priority: 0xF, PC: 0x3776
+ -> PID: 0x1049997439, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1464689331, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x101929267, State: ready, Priority: 0xF, PC: 0x7183
+ -> PID: 0x1911300560, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x298918984, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1816731566, State: ready, Priority: 0xF, PC: 0x3789
+ -> PID: 0x957828015, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1105222769, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x282475249, State: ready, Priority: 0xF, PC: 0x13590
+ -> PID: 0x892053144, State: ready, Priority: 0xF, PC: 0x3506
+ -> PID: 0x454233502, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1624379149, State: ready, Priority: 0xF, PC: 0x7005
+ -> PID: 0x1323602331, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1887638, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1561939997, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x382955828, State: ready, Priority: 0xF, PC: 0x3849
+ -> PID: 0x1461495731, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1227619358, State: ready, Priority: 0xF, PC: 0x3014
+ -> PID: 0x1779636775, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x175530180, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1351995223, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x458588260, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784558821, State: ready, Priority: 0xF, PC: 0x6942
+ -> PID: 0x2034837525, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1070477904, State: ready, Priority: 0xF, PC: 0x3256
+
+Process Enqueued: Contents: PID: 0x609960597, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1683337704, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1606946231, State: , Priority: 0xF, PC: 0x3150
+Process Enqueued: Contents: PID: 0x24301412, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x2111482797, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1760348381, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x74243042, State: , Priority: 0xF, PC: 0x9912
+Process Enqueued: Contents: PID: 0x379847699, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x338725129, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x552265483, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1617819336, State: , Priority: 0xF, PC: 0x6905
+Process Enqueued: Contents: PID: 0x1363045322, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x456880399, State: , Priority: 0xF, PC: 0x3176
+Process Enqueued: Contents: PID: 0x1616927224, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x280090412, State: , Priority: 0xF, PC: 0x3366
+
+Returned to ready queue: PID: 0x1137522503, State: running, Priority: 0xF, PC: 0x7302
+
+Head: PID: 0x889688008, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1899894091, State: ready, Priority: 0xF, PC: 0x3968
+ -> PID: 0x515204530, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x937186357, State: ready, Priority: 0xF, PC: 0x3962
+ -> PID: 0x1400285365, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1463179852, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x984943658, State: ready, Priority: 0xF, PC: 0x10703
+ -> PID: 0x590357944, State: ready, Priority: 0xF, PC: 0x3712
+ -> PID: 0x1815859901, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x357571490, State: ready, Priority: 0xF, PC: 0x3831
+ -> PID: 0x318153057, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1927702196, State: ready, Priority: 0xF, PC: 0x3790
+ -> PID: 0x4294967295, State: ready, Priority: 0xF, PC: 0x14466
+ -> PID: 0x1083454666, State: ready, Priority: 0xF, PC: 0x3006
+ -> PID: 0x2063936098, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x685118024, State: ready, Priority: 0xF, PC: 0x3319
+ -> PID: 0x1351345223, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1398556760, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1474833169, State: ready, Priority: 0xF, PC: 0x6979
+ -> PID: 0x1023129506, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x436476770, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1936329094, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x194847408, State: ready, Priority: 0xF, PC: 0x3844
+ -> PID: 0x881140534, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x158374933, State: ready, Priority: 0xF, PC: 0x3394
+ -> PID: 0x348318738, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784559590, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x824938981, State: ready, Priority: 0xF, PC: 0x3159
+ -> PID: 0x977764947, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1998097157, State: ready, Priority: 0xF, PC: 0x6230
+ -> PID: 0x2000755539, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x462242385, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1457850878, State: ready, Priority: 0xF, PC: 0x11632
+ -> PID: 0x1848682420, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1086531968, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x107554536, State: ready, Priority: 0xF, PC: 0x3915
+ -> PID: 0x1404280278, State: ready, Priority: 0xF, PC: 0x7203
+ -> PID: 0x1358796011, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1771024152, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1507977295, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2007237709, State: ready, Priority: 0xF, PC: 0x9825
+ -> PID: 0x621301815, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1478446501, State: ready, Priority: 0xF, PC: 0x3033
+ -> PID: 0x889119397, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1882410547, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1351934195, State: ready, Priority: 0xF, PC: 0x3210
+ -> PID: 0x1536830211, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1517273377, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1636807826, State: ready, Priority: 0xF, PC: 0x7029
+ -> PID: 0x1908194298, State: ready, Priority: 0xF, PC: 0x3868
+ -> PID: 0x657821123, State: ready, Priority: 0xF, PC: 0x3776
+ -> PID: 0x1049997439, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1464689331, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x101929267, State: ready, Priority: 0xF, PC: 0x7183
+ -> PID: 0x1911300560, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x298918984, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1816731566, State: ready, Priority: 0xF, PC: 0x3789
+ -> PID: 0x957828015, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1105222769, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x282475249, State: ready, Priority: 0xF, PC: 0x13590
+ -> PID: 0x892053144, State: ready, Priority: 0xF, PC: 0x3506
+ -> PID: 0x454233502, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1624379149, State: ready, Priority: 0xF, PC: 0x7005
+ -> PID: 0x1323602331, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1887638, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1561939997, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x382955828, State: ready, Priority: 0xF, PC: 0x3849
+ -> PID: 0x1461495731, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1227619358, State: ready, Priority: 0xF, PC: 0x3014
+ -> PID: 0x1779636775, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x175530180, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1351995223, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x458588260, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784558821, State: ready, Priority: 0xF, PC: 0x6942
+ -> PID: 0x2034837525, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1070477904, State: ready, Priority: 0xF, PC: 0x3256
+ -> PID: 0x609960597, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1683337704, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1606946231, State: ready, Priority: 0xF, PC: 0x3150
+ -> PID: 0x24301412, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2111482797, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1760348381, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x74243042, State: ready, Priority: 0xF, PC: 0x9912
+ -> PID: 0x379847699, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x338725129, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x552265483, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1617819336, State: ready, Priority: 0xF, PC: 0x6905
+ -> PID: 0x1363045322, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x456880399, State: ready, Priority: 0xF, PC: 0x3176
+ -> PID: 0x1616927224, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x280090412, State: ready, Priority: 0xF, PC: 0x3366
+
+Process Enqueued: Contents: PID: 0x1137522503, State: , Priority: 0xF, PC: 0x10746
+Process Enqueued: Contents: PID: 0x889688008, State: , Priority: 0xF, PC: 0x3285
+Process Enqueued: Contents: PID: 0x252193898, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1899894091, State: , Priority: 0xF, PC: 0x7101
+Process Enqueued: Contents: PID: 0x1262696576, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1509658266, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x515204530, State: , Priority: 0xF, PC: 0x3711
+Process Enqueued: Contents: PID: 0x1847320614, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1195795737, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x678620591, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x937186357, State: , Priority: 0xF, PC: 0x7724
+
+Returned to ready queue: PID: 0x1400285365, State: running, Priority: 0xF, PC: 0x0
+
+Head: PID: 0x1463179852, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x984943658, State: ready, Priority: 0xF, PC: 0x10703
+ -> PID: 0x590357944, State: ready, Priority: 0xF, PC: 0x3712
+ -> PID: 0x1815859901, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x357571490, State: ready, Priority: 0xF, PC: 0x3831
+ -> PID: 0x318153057, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1927702196, State: ready, Priority: 0xF, PC: 0x3790
+ -> PID: 0x4294967295, State: ready, Priority: 0xF, PC: 0x14466
+ -> PID: 0x1083454666, State: ready, Priority: 0xF, PC: 0x3006
+ -> PID: 0x2063936098, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x685118024, State: ready, Priority: 0xF, PC: 0x3319
+ -> PID: 0x1351345223, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1398556760, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1474833169, State: ready, Priority: 0xF, PC: 0x6979
+ -> PID: 0x1023129506, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x436476770, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1936329094, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x194847408, State: ready, Priority: 0xF, PC: 0x3844
+ -> PID: 0x881140534, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x158374933, State: ready, Priority: 0xF, PC: 0x3394
+ -> PID: 0x348318738, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784559590, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x824938981, State: ready, Priority: 0xF, PC: 0x3159
+ -> PID: 0x977764947, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1998097157, State: ready, Priority: 0xF, PC: 0x6230
+ -> PID: 0x2000755539, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x462242385, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1457850878, State: ready, Priority: 0xF, PC: 0x11632
+ -> PID: 0x1848682420, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1086531968, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x107554536, State: ready, Priority: 0xF, PC: 0x3915
+ -> PID: 0x1404280278, State: ready, Priority: 0xF, PC: 0x7203
+ -> PID: 0x1358796011, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1771024152, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1507977295, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2007237709, State: ready, Priority: 0xF, PC: 0x9825
+ -> PID: 0x621301815, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1478446501, State: ready, Priority: 0xF, PC: 0x3033
+ -> PID: 0x889119397, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1882410547, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1351934195, State: ready, Priority: 0xF, PC: 0x3210
+ -> PID: 0x1536830211, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1517273377, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1636807826, State: ready, Priority: 0xF, PC: 0x7029
+ -> PID: 0x1908194298, State: ready, Priority: 0xF, PC: 0x3868
+ -> PID: 0x657821123, State: ready, Priority: 0xF, PC: 0x3776
+ -> PID: 0x1049997439, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1464689331, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x101929267, State: ready, Priority: 0xF, PC: 0x7183
+ -> PID: 0x1911300560, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x298918984, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1816731566, State: ready, Priority: 0xF, PC: 0x3789
+ -> PID: 0x957828015, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1105222769, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x282475249, State: ready, Priority: 0xF, PC: 0x13590
+ -> PID: 0x892053144, State: ready, Priority: 0xF, PC: 0x3506
+ -> PID: 0x454233502, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1624379149, State: ready, Priority: 0xF, PC: 0x7005
+ -> PID: 0x1323602331, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1887638, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1561939997, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x382955828, State: ready, Priority: 0xF, PC: 0x3849
+ -> PID: 0x1461495731, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1227619358, State: ready, Priority: 0xF, PC: 0x3014
+ -> PID: 0x1779636775, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x175530180, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1351995223, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x458588260, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784558821, State: ready, Priority: 0xF, PC: 0x6942
+ -> PID: 0x2034837525, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1070477904, State: ready, Priority: 0xF, PC: 0x3256
+ -> PID: 0x609960597, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1683337704, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1606946231, State: ready, Priority: 0xF, PC: 0x3150
+ -> PID: 0x24301412, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2111482797, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1760348381, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x74243042, State: ready, Priority: 0xF, PC: 0x9912
+ -> PID: 0x379847699, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x338725129, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x552265483, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1617819336, State: ready, Priority: 0xF, PC: 0x6905
+ -> PID: 0x1363045322, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x456880399, State: ready, Priority: 0xF, PC: 0x3176
+ -> PID: 0x1616927224, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x280090412, State: ready, Priority: 0xF, PC: 0x3366
+ -> PID: 0x1137522503, State: ready, Priority: 0xF, PC: 0x10746
+ -> PID: 0x889688008, State: ready, Priority: 0xF, PC: 0x3285
+ -> PID: 0x252193898, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1899894091, State: ready, Priority: 0xF, PC: 0x7101
+ -> PID: 0x1262696576, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1509658266, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x515204530, State: ready, Priority: 0xF, PC: 0x3711
+ -> PID: 0x1847320614, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1195795737, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x678620591, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x937186357, State: ready, Priority: 0xF, PC: 0x7724
+
+Process Enqueued: Contents: PID: 0x1262976197, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1400285365, State: , Priority: 0xF, PC: 0x3588
+Process Enqueued: Contents: PID: 0x795054873, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x959637304, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x832861200, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x168068960, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1463179852, State: , Priority: 0xF, PC: 0x3947
+Process Enqueued: Contents: PID: 0x984943658, State: , Priority: 0xF, PC: 0x14433
+Process Enqueued: Contents: PID: 0x590357944, State: , Priority: 0xF, PC: 0x7258
+Process Enqueued: Contents: PID: 0x2028841238, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1815859901, State: , Priority: 0xF, PC: 0x3926
+
+Returned to ready queue: PID: 0x357571490, State: running, Priority: 0xF, PC: 0x3831
+
+Head: PID: 0x318153057, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1927702196, State: ready, Priority: 0xF, PC: 0x3790
+ -> PID: 0x4294967295, State: ready, Priority: 0xF, PC: 0x14466
+ -> PID: 0x1083454666, State: ready, Priority: 0xF, PC: 0x3006
+ -> PID: 0x2063936098, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x685118024, State: ready, Priority: 0xF, PC: 0x3319
+ -> PID: 0x1351345223, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1398556760, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1474833169, State: ready, Priority: 0xF, PC: 0x6979
+ -> PID: 0x1023129506, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x436476770, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1936329094, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x194847408, State: ready, Priority: 0xF, PC: 0x3844
+ -> PID: 0x881140534, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x158374933, State: ready, Priority: 0xF, PC: 0x3394
+ -> PID: 0x348318738, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784559590, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x824938981, State: ready, Priority: 0xF, PC: 0x3159
+ -> PID: 0x977764947, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1998097157, State: ready, Priority: 0xF, PC: 0x6230
+ -> PID: 0x2000755539, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x462242385, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1457850878, State: ready, Priority: 0xF, PC: 0x11632
+ -> PID: 0x1848682420, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1086531968, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x107554536, State: ready, Priority: 0xF, PC: 0x3915
+ -> PID: 0x1404280278, State: ready, Priority: 0xF, PC: 0x7203
+ -> PID: 0x1358796011, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1771024152, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1507977295, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2007237709, State: ready, Priority: 0xF, PC: 0x9825
+ -> PID: 0x621301815, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1478446501, State: ready, Priority: 0xF, PC: 0x3033
+ -> PID: 0x889119397, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1882410547, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1351934195, State: ready, Priority: 0xF, PC: 0x3210
+ -> PID: 0x1536830211, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1517273377, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1636807826, State: ready, Priority: 0xF, PC: 0x7029
+ -> PID: 0x1908194298, State: ready, Priority: 0xF, PC: 0x3868
+ -> PID: 0x657821123, State: ready, Priority: 0xF, PC: 0x3776
+ -> PID: 0x1049997439, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1464689331, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x101929267, State: ready, Priority: 0xF, PC: 0x7183
+ -> PID: 0x1911300560, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x298918984, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1816731566, State: ready, Priority: 0xF, PC: 0x3789
+ -> PID: 0x957828015, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1105222769, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x282475249, State: ready, Priority: 0xF, PC: 0x13590
+ -> PID: 0x892053144, State: ready, Priority: 0xF, PC: 0x3506
+ -> PID: 0x454233502, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1624379149, State: ready, Priority: 0xF, PC: 0x7005
+ -> PID: 0x1323602331, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1887638, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1561939997, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x382955828, State: ready, Priority: 0xF, PC: 0x3849
+ -> PID: 0x1461495731, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1227619358, State: ready, Priority: 0xF, PC: 0x3014
+ -> PID: 0x1779636775, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x175530180, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1351995223, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x458588260, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784558821, State: ready, Priority: 0xF, PC: 0x6942
+ -> PID: 0x2034837525, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1070477904, State: ready, Priority: 0xF, PC: 0x3256
+ -> PID: 0x609960597, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1683337704, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1606946231, State: ready, Priority: 0xF, PC: 0x3150
+ -> PID: 0x24301412, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2111482797, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1760348381, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x74243042, State: ready, Priority: 0xF, PC: 0x9912
+ -> PID: 0x379847699, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x338725129, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x552265483, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1617819336, State: ready, Priority: 0xF, PC: 0x6905
+ -> PID: 0x1363045322, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x456880399, State: ready, Priority: 0xF, PC: 0x3176
+ -> PID: 0x1616927224, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x280090412, State: ready, Priority: 0xF, PC: 0x3366
+ -> PID: 0x1137522503, State: ready, Priority: 0xF, PC: 0x10746
+ -> PID: 0x889688008, State: ready, Priority: 0xF, PC: 0x3285
+ -> PID: 0x252193898, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1899894091, State: ready, Priority: 0xF, PC: 0x7101
+ -> PID: 0x1262696576, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1509658266, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x515204530, State: ready, Priority: 0xF, PC: 0x3711
+ -> PID: 0x1847320614, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1195795737, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x678620591, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x937186357, State: ready, Priority: 0xF, PC: 0x7724
+ -> PID: 0x1262976197, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1400285365, State: ready, Priority: 0xF, PC: 0x3588
+ -> PID: 0x795054873, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x959637304, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x832861200, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x168068960, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1463179852, State: ready, Priority: 0xF, PC: 0x3947
+ -> PID: 0x984943658, State: ready, Priority: 0xF, PC: 0x14433
+ -> PID: 0x590357944, State: ready, Priority: 0xF, PC: 0x7258
+ -> PID: 0x2028841238, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1815859901, State: ready, Priority: 0xF, PC: 0x3926
+
+Process Enqueued: Contents: PID: 0x357571490, State: , Priority: 0xF, PC: 0x7688
+Process Enqueued: Contents: PID: 0x1420250114, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1300601360, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x322968418, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x318153057, State: , Priority: 0xF, PC: 0x3585
+Process Enqueued: Contents: PID: 0x1122721015, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x32106102, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1927702196, State: , Priority: 0xF, PC: 0x7433
+Process Enqueued: Contents: PID: 0x1971062967, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x2083245269, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x4294967295, State: , Priority: 0xF, PC: 0x17769
+Process Enqueued: Contents: PID: 0x978719103, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x47424385, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1518163459, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1083454666, State: , Priority: 0xF, PC: 0x6936
+
+Returned to ready queue: PID: 0x2063936098, State: running, Priority: 0xF, PC: 0x0
+
+Head: PID: 0x685118024, State: ready, Priority: 0xF, PC: 0x3319
+ -> PID: 0x1351345223, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1398556760, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1474833169, State: ready, Priority: 0xF, PC: 0x6979
+ -> PID: 0x1023129506, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x436476770, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1936329094, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x194847408, State: ready, Priority: 0xF, PC: 0x3844
+ -> PID: 0x881140534, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x158374933, State: ready, Priority: 0xF, PC: 0x3394
+ -> PID: 0x348318738, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784559590, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x824938981, State: ready, Priority: 0xF, PC: 0x3159
+ -> PID: 0x977764947, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1998097157, State: ready, Priority: 0xF, PC: 0x6230
+ -> PID: 0x2000755539, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x462242385, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1457850878, State: ready, Priority: 0xF, PC: 0x11632
+ -> PID: 0x1848682420, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1086531968, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x107554536, State: ready, Priority: 0xF, PC: 0x3915
+ -> PID: 0x1404280278, State: ready, Priority: 0xF, PC: 0x7203
+ -> PID: 0x1358796011, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1771024152, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1507977295, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2007237709, State: ready, Priority: 0xF, PC: 0x9825
+ -> PID: 0x621301815, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1478446501, State: ready, Priority: 0xF, PC: 0x3033
+ -> PID: 0x889119397, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1882410547, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1351934195, State: ready, Priority: 0xF, PC: 0x3210
+ -> PID: 0x1536830211, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1517273377, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1636807826, State: ready, Priority: 0xF, PC: 0x7029
+ -> PID: 0x1908194298, State: ready, Priority: 0xF, PC: 0x3868
+ -> PID: 0x657821123, State: ready, Priority: 0xF, PC: 0x3776
+ -> PID: 0x1049997439, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1464689331, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x101929267, State: ready, Priority: 0xF, PC: 0x7183
+ -> PID: 0x1911300560, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x298918984, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1816731566, State: ready, Priority: 0xF, PC: 0x3789
+ -> PID: 0x957828015, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1105222769, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x282475249, State: ready, Priority: 0xF, PC: 0x13590
+ -> PID: 0x892053144, State: ready, Priority: 0xF, PC: 0x3506
+ -> PID: 0x454233502, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1624379149, State: ready, Priority: 0xF, PC: 0x7005
+ -> PID: 0x1323602331, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1887638, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1561939997, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x382955828, State: ready, Priority: 0xF, PC: 0x3849
+ -> PID: 0x1461495731, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1227619358, State: ready, Priority: 0xF, PC: 0x3014
+ -> PID: 0x1779636775, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x175530180, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1351995223, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x458588260, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784558821, State: ready, Priority: 0xF, PC: 0x6942
+ -> PID: 0x2034837525, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1070477904, State: ready, Priority: 0xF, PC: 0x3256
+ -> PID: 0x609960597, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1683337704, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1606946231, State: ready, Priority: 0xF, PC: 0x3150
+ -> PID: 0x24301412, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2111482797, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1760348381, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x74243042, State: ready, Priority: 0xF, PC: 0x9912
+ -> PID: 0x379847699, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x338725129, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x552265483, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1617819336, State: ready, Priority: 0xF, PC: 0x6905
+ -> PID: 0x1363045322, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x456880399, State: ready, Priority: 0xF, PC: 0x3176
+ -> PID: 0x1616927224, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x280090412, State: ready, Priority: 0xF, PC: 0x3366
+ -> PID: 0x1137522503, State: ready, Priority: 0xF, PC: 0x10746
+ -> PID: 0x889688008, State: ready, Priority: 0xF, PC: 0x3285
+ -> PID: 0x252193898, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1899894091, State: ready, Priority: 0xF, PC: 0x7101
+ -> PID: 0x1262696576, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1509658266, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x515204530, State: ready, Priority: 0xF, PC: 0x3711
+ -> PID: 0x1847320614, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1195795737, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x678620591, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x937186357, State: ready, Priority: 0xF, PC: 0x7724
+ -> PID: 0x1262976197, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1400285365, State: ready, Priority: 0xF, PC: 0x3588
+ -> PID: 0x795054873, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x959637304, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x832861200, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x168068960, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1463179852, State: ready, Priority: 0xF, PC: 0x3947
+ -> PID: 0x984943658, State: ready, Priority: 0xF, PC: 0x14433
+ -> PID: 0x590357944, State: ready, Priority: 0xF, PC: 0x7258
+ -> PID: 0x2028841238, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1815859901, State: ready, Priority: 0xF, PC: 0x3926
+ -> PID: 0x357571490, State: ready, Priority: 0xF, PC: 0x7688
+ -> PID: 0x1420250114, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1300601360, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x322968418, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x318153057, State: ready, Priority: 0xF, PC: 0x3585
+ -> PID: 0x1122721015, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x32106102, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1927702196, State: ready, Priority: 0xF, PC: 0x7433
+ -> PID: 0x1971062967, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2083245269, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x4294967295, State: ready, Priority: 0xF, PC: 0x17769
+ -> PID: 0x978719103, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x47424385, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1518163459, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1083454666, State: ready, Priority: 0xF, PC: 0x6936
+
+Process Enqueued: Contents: PID: 0x1614285132, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1493959603, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x2063936098, State: , Priority: 0xF, PC: 0x3920
+Process Enqueued: Contents: PID: 0x685118024, State: , Priority: 0xF, PC: 0x6550
+Process Enqueued: Contents: PID: 0x1351345223, State: , Priority: 0xF, PC: 0x3203
+Process Enqueued: Contents: PID: 0x1398556760, State: , Priority: 0xF, PC: 0x3520
+Process Enqueued: Contents: PID: 0x1603481258, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x13618676, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1474833169, State: , Priority: 0xF, PC: 0x10913
+
+Returned to ready queue: PID: 0x1023129506, State: running, Priority: 0xF, PC: 0x0
+
+Head: PID: 0x436476770, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1936329094, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x194847408, State: ready, Priority: 0xF, PC: 0x3844
+ -> PID: 0x881140534, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x158374933, State: ready, Priority: 0xF, PC: 0x3394
+ -> PID: 0x348318738, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784559590, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x824938981, State: ready, Priority: 0xF, PC: 0x3159
+ -> PID: 0x977764947, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1998097157, State: ready, Priority: 0xF, PC: 0x6230
+ -> PID: 0x2000755539, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x462242385, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1457850878, State: ready, Priority: 0xF, PC: 0x11632
+ -> PID: 0x1848682420, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1086531968, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x107554536, State: ready, Priority: 0xF, PC: 0x3915
+ -> PID: 0x1404280278, State: ready, Priority: 0xF, PC: 0x7203
+ -> PID: 0x1358796011, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1771024152, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1507977295, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2007237709, State: ready, Priority: 0xF, PC: 0x9825
+ -> PID: 0x621301815, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1478446501, State: ready, Priority: 0xF, PC: 0x3033
+ -> PID: 0x889119397, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1882410547, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1351934195, State: ready, Priority: 0xF, PC: 0x3210
+ -> PID: 0x1536830211, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1517273377, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1636807826, State: ready, Priority: 0xF, PC: 0x7029
+ -> PID: 0x1908194298, State: ready, Priority: 0xF, PC: 0x3868
+ -> PID: 0x657821123, State: ready, Priority: 0xF, PC: 0x3776
+ -> PID: 0x1049997439, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1464689331, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x101929267, State: ready, Priority: 0xF, PC: 0x7183
+ -> PID: 0x1911300560, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x298918984, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1816731566, State: ready, Priority: 0xF, PC: 0x3789
+ -> PID: 0x957828015, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1105222769, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x282475249, State: ready, Priority: 0xF, PC: 0x13590
+ -> PID: 0x892053144, State: ready, Priority: 0xF, PC: 0x3506
+ -> PID: 0x454233502, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1624379149, State: ready, Priority: 0xF, PC: 0x7005
+ -> PID: 0x1323602331, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1887638, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1561939997, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x382955828, State: ready, Priority: 0xF, PC: 0x3849
+ -> PID: 0x1461495731, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1227619358, State: ready, Priority: 0xF, PC: 0x3014
+ -> PID: 0x1779636775, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x175530180, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1351995223, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x458588260, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784558821, State: ready, Priority: 0xF, PC: 0x6942
+ -> PID: 0x2034837525, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1070477904, State: ready, Priority: 0xF, PC: 0x3256
+ -> PID: 0x609960597, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1683337704, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1606946231, State: ready, Priority: 0xF, PC: 0x3150
+ -> PID: 0x24301412, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2111482797, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1760348381, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x74243042, State: ready, Priority: 0xF, PC: 0x9912
+ -> PID: 0x379847699, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x338725129, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x552265483, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1617819336, State: ready, Priority: 0xF, PC: 0x6905
+ -> PID: 0x1363045322, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x456880399, State: ready, Priority: 0xF, PC: 0x3176
+ -> PID: 0x1616927224, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x280090412, State: ready, Priority: 0xF, PC: 0x3366
+ -> PID: 0x1137522503, State: ready, Priority: 0xF, PC: 0x10746
+ -> PID: 0x889688008, State: ready, Priority: 0xF, PC: 0x3285
+ -> PID: 0x252193898, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1899894091, State: ready, Priority: 0xF, PC: 0x7101
+ -> PID: 0x1262696576, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1509658266, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x515204530, State: ready, Priority: 0xF, PC: 0x3711
+ -> PID: 0x1847320614, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1195795737, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x678620591, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x937186357, State: ready, Priority: 0xF, PC: 0x7724
+ -> PID: 0x1262976197, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1400285365, State: ready, Priority: 0xF, PC: 0x3588
+ -> PID: 0x795054873, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x959637304, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x832861200, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x168068960, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1463179852, State: ready, Priority: 0xF, PC: 0x3947
+ -> PID: 0x984943658, State: ready, Priority: 0xF, PC: 0x14433
+ -> PID: 0x590357944, State: ready, Priority: 0xF, PC: 0x7258
+ -> PID: 0x2028841238, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1815859901, State: ready, Priority: 0xF, PC: 0x3926
+ -> PID: 0x357571490, State: ready, Priority: 0xF, PC: 0x7688
+ -> PID: 0x1420250114, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1300601360, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x322968418, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x318153057, State: ready, Priority: 0xF, PC: 0x3585
+ -> PID: 0x1122721015, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x32106102, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1927702196, State: ready, Priority: 0xF, PC: 0x7433
+ -> PID: 0x1971062967, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2083245269, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x4294967295, State: ready, Priority: 0xF, PC: 0x17769
+ -> PID: 0x978719103, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x47424385, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1518163459, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1083454666, State: ready, Priority: 0xF, PC: 0x6936
+ -> PID: 0x1614285132, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1493959603, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2063936098, State: ready, Priority: 0xF, PC: 0x3920
+ -> PID: 0x685118024, State: ready, Priority: 0xF, PC: 0x6550
+ -> PID: 0x1351345223, State: ready, Priority: 0xF, PC: 0x3203
+ -> PID: 0x1398556760, State: ready, Priority: 0xF, PC: 0x3520
+ -> PID: 0x1603481258, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x13618676, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1474833169, State: ready, Priority: 0xF, PC: 0x10913
+
+Process Enqueued: Contents: PID: 0x1023129506, State: , Priority: 0xF, PC: 0x3879
+Process Enqueued: Contents: PID: 0x463482574, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1346174542, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1523252771, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x436476770, State: , Priority: 0xF, PC: 0x3879
+Process Enqueued: Contents: PID: 0x798669970, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1936329094, State: , Priority: 0xF, PC: 0x3723
+Process Enqueued: Contents: PID: 0x194847408, State: , Priority: 0xF, PC: 0x7815
+Process Enqueued: Contents: PID: 0x1666190318, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x881140534, State: , Priority: 0xF, PC: 0x3299
+
+Returned to ready queue: PID: 0x158374933, State: running, Priority: 0xF, PC: 0x3394
+
+Head: PID: 0x348318738, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784559590, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x824938981, State: ready, Priority: 0xF, PC: 0x3159
+ -> PID: 0x977764947, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1998097157, State: ready, Priority: 0xF, PC: 0x6230
+ -> PID: 0x2000755539, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x462242385, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1457850878, State: ready, Priority: 0xF, PC: 0x11632
+ -> PID: 0x1848682420, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1086531968, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x107554536, State: ready, Priority: 0xF, PC: 0x3915
+ -> PID: 0x1404280278, State: ready, Priority: 0xF, PC: 0x7203
+ -> PID: 0x1358796011, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1771024152, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1507977295, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2007237709, State: ready, Priority: 0xF, PC: 0x9825
+ -> PID: 0x621301815, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1478446501, State: ready, Priority: 0xF, PC: 0x3033
+ -> PID: 0x889119397, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1882410547, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1351934195, State: ready, Priority: 0xF, PC: 0x3210
+ -> PID: 0x1536830211, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1517273377, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1636807826, State: ready, Priority: 0xF, PC: 0x7029
+ -> PID: 0x1908194298, State: ready, Priority: 0xF, PC: 0x3868
+ -> PID: 0x657821123, State: ready, Priority: 0xF, PC: 0x3776
+ -> PID: 0x1049997439, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1464689331, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x101929267, State: ready, Priority: 0xF, PC: 0x7183
+ -> PID: 0x1911300560, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x298918984, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1816731566, State: ready, Priority: 0xF, PC: 0x3789
+ -> PID: 0x957828015, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1105222769, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x282475249, State: ready, Priority: 0xF, PC: 0x13590
+ -> PID: 0x892053144, State: ready, Priority: 0xF, PC: 0x3506
+ -> PID: 0x454233502, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1624379149, State: ready, Priority: 0xF, PC: 0x7005
+ -> PID: 0x1323602331, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1887638, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1561939997, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x382955828, State: ready, Priority: 0xF, PC: 0x3849
+ -> PID: 0x1461495731, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1227619358, State: ready, Priority: 0xF, PC: 0x3014
+ -> PID: 0x1779636775, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x175530180, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1351995223, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x458588260, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784558821, State: ready, Priority: 0xF, PC: 0x6942
+ -> PID: 0x2034837525, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1070477904, State: ready, Priority: 0xF, PC: 0x3256
+ -> PID: 0x609960597, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1683337704, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1606946231, State: ready, Priority: 0xF, PC: 0x3150
+ -> PID: 0x24301412, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2111482797, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1760348381, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x74243042, State: ready, Priority: 0xF, PC: 0x9912
+ -> PID: 0x379847699, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x338725129, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x552265483, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1617819336, State: ready, Priority: 0xF, PC: 0x6905
+ -> PID: 0x1363045322, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x456880399, State: ready, Priority: 0xF, PC: 0x3176
+ -> PID: 0x1616927224, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x280090412, State: ready, Priority: 0xF, PC: 0x3366
+ -> PID: 0x1137522503, State: ready, Priority: 0xF, PC: 0x10746
+ -> PID: 0x889688008, State: ready, Priority: 0xF, PC: 0x3285
+ -> PID: 0x252193898, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1899894091, State: ready, Priority: 0xF, PC: 0x7101
+ -> PID: 0x1262696576, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1509658266, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x515204530, State: ready, Priority: 0xF, PC: 0x3711
+ -> PID: 0x1847320614, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1195795737, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x678620591, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x937186357, State: ready, Priority: 0xF, PC: 0x7724
+ -> PID: 0x1262976197, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1400285365, State: ready, Priority: 0xF, PC: 0x3588
+ -> PID: 0x795054873, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x959637304, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x832861200, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x168068960, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1463179852, State: ready, Priority: 0xF, PC: 0x3947
+ -> PID: 0x984943658, State: ready, Priority: 0xF, PC: 0x14433
+ -> PID: 0x590357944, State: ready, Priority: 0xF, PC: 0x7258
+ -> PID: 0x2028841238, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1815859901, State: ready, Priority: 0xF, PC: 0x3926
+ -> PID: 0x357571490, State: ready, Priority: 0xF, PC: 0x7688
+ -> PID: 0x1420250114, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1300601360, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x322968418, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x318153057, State: ready, Priority: 0xF, PC: 0x3585
+ -> PID: 0x1122721015, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x32106102, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1927702196, State: ready, Priority: 0xF, PC: 0x7433
+ -> PID: 0x1971062967, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2083245269, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x4294967295, State: ready, Priority: 0xF, PC: 0x17769
+ -> PID: 0x978719103, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x47424385, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1518163459, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1083454666, State: ready, Priority: 0xF, PC: 0x6936
+ -> PID: 0x1614285132, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1493959603, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2063936098, State: ready, Priority: 0xF, PC: 0x3920
+ -> PID: 0x685118024, State: ready, Priority: 0xF, PC: 0x6550
+ -> PID: 0x1351345223, State: ready, Priority: 0xF, PC: 0x3203
+ -> PID: 0x1398556760, State: ready, Priority: 0xF, PC: 0x3520
+ -> PID: 0x1603481258, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x13618676, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1474833169, State: ready, Priority: 0xF, PC: 0x10913
+ -> PID: 0x1023129506, State: ready, Priority: 0xF, PC: 0x3879
+ -> PID: 0x463482574, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1346174542, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1523252771, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x436476770, State: ready, Priority: 0xF, PC: 0x3879
+ -> PID: 0x798669970, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1936329094, State: ready, Priority: 0xF, PC: 0x3723
+ -> PID: 0x194847408, State: ready, Priority: 0xF, PC: 0x7815
+ -> PID: 0x1666190318, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x881140534, State: ready, Priority: 0xF, PC: 0x3299
+
+Process Enqueued: Contents: PID: 0x158374933, State: , Priority: 0xF, PC: 0x7015
+Process Enqueued: Contents: PID: 0x637850124, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1026076958, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x348318738, State: , Priority: 0xF, PC: 0x3771
+Process Enqueued: Contents: PID: 0x322791560, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1790318751, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x784559590, State: , Priority: 0xF, PC: 0x3503
+Process Enqueued: Contents: PID: 0x711192801, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x824938981, State: , Priority: 0xF, PC: 0x6239
+Process Enqueued: Contents: PID: 0x3559274, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x63040413, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x977764947, State: , Priority: 0xF, PC: 0x3025
+
+Returned to ready queue: PID: 0x1998097157, State: running, Priority: 0xF, PC: 0x6230
+
+Head: PID: 0x2000755539, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x462242385, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1457850878, State: ready, Priority: 0xF, PC: 0x11632
+ -> PID: 0x1848682420, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1086531968, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x107554536, State: ready, Priority: 0xF, PC: 0x3915
+ -> PID: 0x1404280278, State: ready, Priority: 0xF, PC: 0x7203
+ -> PID: 0x1358796011, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1771024152, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1507977295, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2007237709, State: ready, Priority: 0xF, PC: 0x9825
+ -> PID: 0x621301815, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1478446501, State: ready, Priority: 0xF, PC: 0x3033
+ -> PID: 0x889119397, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1882410547, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1351934195, State: ready, Priority: 0xF, PC: 0x3210
+ -> PID: 0x1536830211, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1517273377, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1636807826, State: ready, Priority: 0xF, PC: 0x7029
+ -> PID: 0x1908194298, State: ready, Priority: 0xF, PC: 0x3868
+ -> PID: 0x657821123, State: ready, Priority: 0xF, PC: 0x3776
+ -> PID: 0x1049997439, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1464689331, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x101929267, State: ready, Priority: 0xF, PC: 0x7183
+ -> PID: 0x1911300560, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x298918984, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1816731566, State: ready, Priority: 0xF, PC: 0x3789
+ -> PID: 0x957828015, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1105222769, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x282475249, State: ready, Priority: 0xF, PC: 0x13590
+ -> PID: 0x892053144, State: ready, Priority: 0xF, PC: 0x3506
+ -> PID: 0x454233502, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1624379149, State: ready, Priority: 0xF, PC: 0x7005
+ -> PID: 0x1323602331, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1887638, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1561939997, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x382955828, State: ready, Priority: 0xF, PC: 0x3849
+ -> PID: 0x1461495731, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1227619358, State: ready, Priority: 0xF, PC: 0x3014
+ -> PID: 0x1779636775, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x175530180, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1351995223, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x458588260, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784558821, State: ready, Priority: 0xF, PC: 0x6942
+ -> PID: 0x2034837525, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1070477904, State: ready, Priority: 0xF, PC: 0x3256
+ -> PID: 0x609960597, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1683337704, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1606946231, State: ready, Priority: 0xF, PC: 0x3150
+ -> PID: 0x24301412, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2111482797, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1760348381, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x74243042, State: ready, Priority: 0xF, PC: 0x9912
+ -> PID: 0x379847699, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x338725129, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x552265483, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1617819336, State: ready, Priority: 0xF, PC: 0x6905
+ -> PID: 0x1363045322, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x456880399, State: ready, Priority: 0xF, PC: 0x3176
+ -> PID: 0x1616927224, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x280090412, State: ready, Priority: 0xF, PC: 0x3366
+ -> PID: 0x1137522503, State: ready, Priority: 0xF, PC: 0x10746
+ -> PID: 0x889688008, State: ready, Priority: 0xF, PC: 0x3285
+ -> PID: 0x252193898, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1899894091, State: ready, Priority: 0xF, PC: 0x7101
+ -> PID: 0x1262696576, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1509658266, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x515204530, State: ready, Priority: 0xF, PC: 0x3711
+ -> PID: 0x1847320614, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1195795737, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x678620591, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x937186357, State: ready, Priority: 0xF, PC: 0x7724
+ -> PID: 0x1262976197, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1400285365, State: ready, Priority: 0xF, PC: 0x3588
+ -> PID: 0x795054873, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x959637304, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x832861200, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x168068960, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1463179852, State: ready, Priority: 0xF, PC: 0x3947
+ -> PID: 0x984943658, State: ready, Priority: 0xF, PC: 0x14433
+ -> PID: 0x590357944, State: ready, Priority: 0xF, PC: 0x7258
+ -> PID: 0x2028841238, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1815859901, State: ready, Priority: 0xF, PC: 0x3926
+ -> PID: 0x357571490, State: ready, Priority: 0xF, PC: 0x7688
+ -> PID: 0x1420250114, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1300601360, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x322968418, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x318153057, State: ready, Priority: 0xF, PC: 0x3585
+ -> PID: 0x1122721015, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x32106102, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1927702196, State: ready, Priority: 0xF, PC: 0x7433
+ -> PID: 0x1971062967, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2083245269, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x4294967295, State: ready, Priority: 0xF, PC: 0x17769
+ -> PID: 0x978719103, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x47424385, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1518163459, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1083454666, State: ready, Priority: 0xF, PC: 0x6936
+ -> PID: 0x1614285132, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1493959603, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2063936098, State: ready, Priority: 0xF, PC: 0x3920
+ -> PID: 0x685118024, State: ready, Priority: 0xF, PC: 0x6550
+ -> PID: 0x1351345223, State: ready, Priority: 0xF, PC: 0x3203
+ -> PID: 0x1398556760, State: ready, Priority: 0xF, PC: 0x3520
+ -> PID: 0x1603481258, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x13618676, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1474833169, State: ready, Priority: 0xF, PC: 0x10913
+ -> PID: 0x1023129506, State: ready, Priority: 0xF, PC: 0x3879
+ -> PID: 0x463482574, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1346174542, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1523252771, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x436476770, State: ready, Priority: 0xF, PC: 0x3879
+ -> PID: 0x798669970, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1936329094, State: ready, Priority: 0xF, PC: 0x3723
+ -> PID: 0x194847408, State: ready, Priority: 0xF, PC: 0x7815
+ -> PID: 0x1666190318, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x881140534, State: ready, Priority: 0xF, PC: 0x3299
+ -> PID: 0x158374933, State: ready, Priority: 0xF, PC: 0x7015
+ -> PID: 0x637850124, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1026076958, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x348318738, State: ready, Priority: 0xF, PC: 0x3771
+ -> PID: 0x322791560, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1790318751, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784559590, State: ready, Priority: 0xF, PC: 0x3503
+ -> PID: 0x711192801, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x824938981, State: ready, Priority: 0xF, PC: 0x6239
+ -> PID: 0x3559274, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x63040413, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x977764947, State: ready, Priority: 0xF, PC: 0x3025
+
+Process Enqueued: Contents: PID: 0x1586901783, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1151624117, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x263081550, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x404319195, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1998097157, State: , Priority: 0xF, PC: 0x9741
+Process Enqueued: Contents: PID: 0x2000755539, State: , Priority: 0xF, PC: 0x3666
+Process Enqueued: Contents: PID: 0x462242385, State: , Priority: 0xF, PC: 0x3593
+Process Enqueued: Contents: PID: 0x1799809565, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1457850878, State: , Priority: 0xF, PC: 0x15374
+Process Enqueued: Contents: PID: 0x911254352, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1928256141, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1848682420, State: , Priority: 0xF, PC: 0x3200
+
+Returned to ready queue: PID: 0x1086531968, State: running, Priority: 0xF, PC: 0x0
+
+Head: PID: 0x107554536, State: ready, Priority: 0xF, PC: 0x3915
+ -> PID: 0x1404280278, State: ready, Priority: 0xF, PC: 0x7203
+ -> PID: 0x1358796011, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1771024152, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1507977295, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2007237709, State: ready, Priority: 0xF, PC: 0x9825
+ -> PID: 0x621301815, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1478446501, State: ready, Priority: 0xF, PC: 0x3033
+ -> PID: 0x889119397, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1882410547, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1351934195, State: ready, Priority: 0xF, PC: 0x3210
+ -> PID: 0x1536830211, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1517273377, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1636807826, State: ready, Priority: 0xF, PC: 0x7029
+ -> PID: 0x1908194298, State: ready, Priority: 0xF, PC: 0x3868
+ -> PID: 0x657821123, State: ready, Priority: 0xF, PC: 0x3776
+ -> PID: 0x1049997439, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1464689331, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x101929267, State: ready, Priority: 0xF, PC: 0x7183
+ -> PID: 0x1911300560, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x298918984, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1816731566, State: ready, Priority: 0xF, PC: 0x3789
+ -> PID: 0x957828015, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1105222769, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x282475249, State: ready, Priority: 0xF, PC: 0x13590
+ -> PID: 0x892053144, State: ready, Priority: 0xF, PC: 0x3506
+ -> PID: 0x454233502, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1624379149, State: ready, Priority: 0xF, PC: 0x7005
+ -> PID: 0x1323602331, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1887638, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1561939997, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x382955828, State: ready, Priority: 0xF, PC: 0x3849
+ -> PID: 0x1461495731, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1227619358, State: ready, Priority: 0xF, PC: 0x3014
+ -> PID: 0x1779636775, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x175530180, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1351995223, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x458588260, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784558821, State: ready, Priority: 0xF, PC: 0x6942
+ -> PID: 0x2034837525, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1070477904, State: ready, Priority: 0xF, PC: 0x3256
+ -> PID: 0x609960597, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1683337704, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1606946231, State: ready, Priority: 0xF, PC: 0x3150
+ -> PID: 0x24301412, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2111482797, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1760348381, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x74243042, State: ready, Priority: 0xF, PC: 0x9912
+ -> PID: 0x379847699, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x338725129, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x552265483, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1617819336, State: ready, Priority: 0xF, PC: 0x6905
+ -> PID: 0x1363045322, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x456880399, State: ready, Priority: 0xF, PC: 0x3176
+ -> PID: 0x1616927224, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x280090412, State: ready, Priority: 0xF, PC: 0x3366
+ -> PID: 0x1137522503, State: ready, Priority: 0xF, PC: 0x10746
+ -> PID: 0x889688008, State: ready, Priority: 0xF, PC: 0x3285
+ -> PID: 0x252193898, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1899894091, State: ready, Priority: 0xF, PC: 0x7101
+ -> PID: 0x1262696576, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1509658266, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x515204530, State: ready, Priority: 0xF, PC: 0x3711
+ -> PID: 0x1847320614, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1195795737, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x678620591, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x937186357, State: ready, Priority: 0xF, PC: 0x7724
+ -> PID: 0x1262976197, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1400285365, State: ready, Priority: 0xF, PC: 0x3588
+ -> PID: 0x795054873, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x959637304, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x832861200, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x168068960, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1463179852, State: ready, Priority: 0xF, PC: 0x3947
+ -> PID: 0x984943658, State: ready, Priority: 0xF, PC: 0x14433
+ -> PID: 0x590357944, State: ready, Priority: 0xF, PC: 0x7258
+ -> PID: 0x2028841238, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1815859901, State: ready, Priority: 0xF, PC: 0x3926
+ -> PID: 0x357571490, State: ready, Priority: 0xF, PC: 0x7688
+ -> PID: 0x1420250114, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1300601360, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x322968418, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x318153057, State: ready, Priority: 0xF, PC: 0x3585
+ -> PID: 0x1122721015, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x32106102, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1927702196, State: ready, Priority: 0xF, PC: 0x7433
+ -> PID: 0x1971062967, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2083245269, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x4294967295, State: ready, Priority: 0xF, PC: 0x17769
+ -> PID: 0x978719103, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x47424385, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1518163459, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1083454666, State: ready, Priority: 0xF, PC: 0x6936
+ -> PID: 0x1614285132, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1493959603, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x2063936098, State: ready, Priority: 0xF, PC: 0x3920
+ -> PID: 0x685118024, State: ready, Priority: 0xF, PC: 0x6550
+ -> PID: 0x1351345223, State: ready, Priority: 0xF, PC: 0x3203
+ -> PID: 0x1398556760, State: ready, Priority: 0xF, PC: 0x3520
+ -> PID: 0x1603481258, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x13618676, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1474833169, State: ready, Priority: 0xF, PC: 0x10913
+ -> PID: 0x1023129506, State: ready, Priority: 0xF, PC: 0x3879
+ -> PID: 0x463482574, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1346174542, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1523252771, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x436476770, State: ready, Priority: 0xF, PC: 0x3879
+ -> PID: 0x798669970, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1936329094, State: ready, Priority: 0xF, PC: 0x3723
+ -> PID: 0x194847408, State: ready, Priority: 0xF, PC: 0x7815
+ -> PID: 0x1666190318, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x881140534, State: ready, Priority: 0xF, PC: 0x3299
+ -> PID: 0x158374933, State: ready, Priority: 0xF, PC: 0x7015
+ -> PID: 0x637850124, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1026076958, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x348318738, State: ready, Priority: 0xF, PC: 0x3771
+ -> PID: 0x322791560, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1790318751, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x784559590, State: ready, Priority: 0xF, PC: 0x3503
+ -> PID: 0x711192801, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x824938981, State: ready, Priority: 0xF, PC: 0x6239
+ -> PID: 0x3559274, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x63040413, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x977764947, State: ready, Priority: 0xF, PC: 0x3025
+ -> PID: 0x1586901783, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1151624117, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x263081550, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x404319195, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1998097157, State: ready, Priority: 0xF, PC: 0x9741
+ -> PID: 0x2000755539, State: ready, Priority: 0xF, PC: 0x3666
+ -> PID: 0x462242385, State: ready, Priority: 0xF, PC: 0x3593
+ -> PID: 0x1799809565, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1457850878, State: ready, Priority: 0xF, PC: 0x15374
+ -> PID: 0x911254352, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1928256141, State: new, Priority: 0xF, PC: 0x0
+ -> PID: 0x1848682420, State: ready, Priority: 0xF, PC: 0x3200
+
+Process Enqueued: Contents: PID: 0x970343127, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1086531968, State: , Priority: 0xF, PC: 0x3787
+Process Enqueued: Contents: PID: 0x450031625, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x107554536, State: , Priority: 0xF, PC: 0x7432
+Process Enqueued: Contents: PID: 0x377901842, State: new, Priority: 0xF, PC: 0x0
+Process Enqueued: Contents: PID: 0x1404280278, State: , Priority: 0xF, PC: 0x11177
+Process Enqueued: Contents: PID: 0x1358796011, State: , Priority: 0xF, PC: 0x3373
