@@ -17,6 +17,7 @@ typedef enum interrupt_type {
 int CYCLES = 100;           // Number of cycles to execute
 unsigned long systemStack;  // "can just be a global integer as it will be accessed from multiple locations"
 unsigned int pc;            // "use an unsigned int in C for the PC"
+unsigned short contextSwitchNumber = 0;
 
 FIFO readyQueue;
 FIFO terminationQueue;
@@ -139,23 +140,23 @@ void scheduler(Interrupt interrupt_type) {
             the contents of the running PCB followed by a message: "Switching to: "
             and the contents of the ready queue head PCB." */
 
-            // if(cswitch_no == 0) {
-            //     char* pcb_string = malloc(100);
-            //     PCB_toString(current_pcb, pcb_string);
-            //     fprintf(output, "Returned to ready queue: %s\n", pcb_string);
-            //     free(pcb_string);
-            //
-            //     cswitch_no =  4;
-            //
-            //     int queue_string_size = FIFOq_toString_size(ready_PCBs);
-            //     char* queue_string = malloc(queue_string_size);
-            //     FIFOq_toString(ready_PCBs, queue_string, queue_string_size);
-            //     fprintf(output, "%s\n", queue_string);
-            //     free(queue_string);
-            // } else {
-            //     // If this call wasn't a print call, decrement the counter.
-            //     cswitch_no--;
-            // }
+            if(contextSwitchNumber == 0) {
+                char* string1 = malloc(100);
+                PCB_toString(current_process, string1);
+                fprintf(output, "Returned to ready queue: %s\n", string1);
+                free(string1);
+
+                contextSwitchNumber =  4;
+
+                int sizeOfFIFO = FIFO_toString_size(readyQueue);
+                char* string2 = malloc(sizeOfFIFO);
+                FIFO_toString(readyQueue, string2, sizeOfFIFO);
+                fprintf(output, "%s\n", string2);
+                free(string2);
+            } else {
+                // If this call wasn't a print call, decrement the counter.
+                contextSwitchNumber--;
+            }
 
 
             break;

@@ -39,7 +39,7 @@ void FIFO_init(FIFO theFIFO) {
 void enqueue(FIFO theFIFO, PCB_p theElement) {
     theFIFO->size = theFIFO->size + 1;
 
-	struct Node* temp = (struct Node*) malloc(sizeof(struct Node));
+	Node_p temp = (Node_p) malloc(sizeof(Node));
 	temp->data = theElement;
     temp->next = NULL;
 	if(theFIFO->head == NULL && theFIFO->tail == NULL){
@@ -59,7 +59,7 @@ PCB_p dequeue(FIFO theFIFO) {
 	}
 	else if (theFIFO->head != NULL){
     value = theFIFO->head->data;
-    Node *temp = theFIFO->head;
+    Node_p temp = theFIFO->head;
 	theFIFO->head = theFIFO->head->next;
     free(temp);
     temp = NULL;
@@ -69,26 +69,33 @@ PCB_p dequeue(FIFO theFIFO) {
     return value;
 }
 
-void FIFO_toString(FIFO theFIFO, char *theStr) {
-    if (theStr) {
-        strcpy(theStr, "");
-        int i, loops = 0;
-        char buf[13];
+int FIFO_size(FIFO queue) {
+    if(queue == NULL) {
+        return -1;
+    } else {
+        return queue->size;
+    }
+}
 
-        loops += theFIFO->size;
+int FIFO_toString_size(FIFO queue) {
+    int header_size = 6;
+    int PCBs_size = (100 + 4) * FIFO_size(queue);
+    return header_size + PCBs_size + 1;
+}
 
-        sprintf(buf, "Count=%d: ", loops); // puts string into buffer
+char* FIFO_toString(FIFO queue, char* string, int size) {
+    strcat(string, "Head: ");
+    Node_p head = queue->head;
+    while (head != NULL) {
+        char* pcb_string = malloc(100);
+        PCB_toString(head->data, pcb_string);
+        strcat(string, pcb_string);
+        free(pcb_string);
 
-        strcat(theStr,buf);
-        PCB_p liveData;
-
-        for (i = 1; i <= loops; i++) {
-            liveData = dequeue(theFIFO); // Pick off the head of the queue//
-            enqueue(theFIFO, liveData); // Put it on the back//
-
-            if (i < loops) sprintf(buf, "P%lu->", liveData->pid);
-            if (i == loops) sprintf(buf, "P%lu-*", liveData->pid);
-            strcat(theStr,buf);
+        if(head->next != NULL) {
+            strcat(string, " -> ");
         }
-	}
+        head = head->next;
+    }
+    return string;
 }

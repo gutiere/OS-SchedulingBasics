@@ -9,21 +9,26 @@
 #include <stdlib.h>
 #include <string.h>
 
-typedef struct Node {
+typedef struct node Node;
+typedef Node * Node_p;
+
+struct node {
     PCB_p data;
-	struct Node* next;
-} Node;
+	Node_p next;
+};
 
 typedef struct FIFO {
     int size;
-    struct Node* head;
-    struct Node* tail;
+    Node_p head;
+    Node_p tail;
 } *FIFO;
 
 FIFO FIFO_construct(void);
 void FIFO_deconstruct(FIFO);
 void FIFO_init(FIFO);
-void FIFO_toString(FIFO, char *);
+int FIFO_toString_size(FIFO queue);
+int FIFO_size(FIFO queue);
+char* FIFO_toString(FIFO queue, char* string, int size);
 void enqueue(FIFO, PCB_p);
 PCB_p dequeue(FIFO);
 
